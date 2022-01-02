@@ -25,7 +25,9 @@ fs.readFile('./doctor-names.csv', function (err, fileData) {
             patient_rating_scaled: Number(comment["patient_rating_scaled"]),
             sentiment_rating_unscaled: Number(comment["sentiment_rating_unscaled"]),
             sentiment_rating_scaled: Number(comment["sentiment_rating_scaled"]),
+            sentiment_text: comment.sentiment_rating_scaled > 3 ? "Positive" : (comment.sentiment_rating_scaled > 2 ? "Neutral" : "Negative"),
             link: comment["link"].replace(/ /g, '.'),
+            source: comment["link"].includes("healthgrades") ? "Healthgrades" : (comment["link"].includes("vitals") ? "Vitals" : "Other")
             /* NEW COMMENT METRICS GO HERE */
         }));
 
@@ -62,7 +64,7 @@ fs.readFile('./doctor-names.csv', function (err, fileData) {
                                 "lot", "months", "hours", "days", "pcp", "day", "minutes", "extremely", "people",
                                 "husband", "wife", "mother", "father", "son", "daughter", "hour", "month", "hospital", "week",
                                 "weels", "review", "reviews", "moved", "appt", "loved", "absolutely", "medicine", "family",
-                                "takes", "total", "highly", "offer", "save", "easy"
+                                "takes", "total", "highly", "offer", "save", "easy", "staff"
                             ].concat(require('stopwords').english)
                         })
                         .filter(keyword => keyword.length > 3)

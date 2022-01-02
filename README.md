@@ -44,3 +44,9 @@ If needed, more JSON/CSV files can be loaded to the script and joined into the d
         - lmotiwalla.github.io
 
 Please see [GitHub Pages Custom Domains](https://docs.github.com/en/github/working-with-github-pages/configuring-a-custom-domain-for-your-github-pages-site) for more information about how to change the URL in future after domain purchase.
+
+## Considered Items
+- [ ] Percentile Ranking based on Specialty/Composite Score
+    - Top 1%, Top 5%, Top 10%, Top 25%, and Top 50%
+- [ ] Filtering similar to Amazon (sort by rating)?
+- [ ] Welcome Page prior to Table/List View

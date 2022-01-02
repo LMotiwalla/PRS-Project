@@ -27,12 +27,8 @@
           <th>Age</th>
           <th>Review Count</th>
           <th>Overall Rating</th>
-          <!-- <th>Friendly Staff</th>
-          <th>Scheduling</th>
-          <th>Accurate Diagnosis</th>
-          <th>Appropriate Followup</th>
-          <th>Spends Time</th>
-          <th>Bedside Experience</th> -->
+          <th>Healthgrades Quality Score</th>
+          <th>Vitals Quality Score</th>
         </tr>
       </thead>
       <tbody></tbody>
@@ -88,26 +84,23 @@
     }
 
     function displayComment(comment){
-      const senti = comment.Sentiment == 0 ? "Neutral" : (
-            comment.Sentiment > 0 ? "Positive" : "Negative");
-         
       $(".reviews-body")
         .append(
           `<div class="card">
             <div class="card-body">
               <div class="rating-box">
-                <div class="rating" style="width:${comment.Stars*20}%;"></div> 
+                <div class="rating" style="width:${comment.patient_rating_scaled*20}%;"></div> 
               </div> 
-              (${Number(comment.Stars).toFixed(1)})
-              <p class="badge badge-pill badge-${comment.Service}">${comment.Service}</p>
+              (${Number(comment.patient_rating_scaled).toFixed(1)})
+              <p class="badge badge-pill badge-${comment.source}">${comment.source}</p>
               <span class="sentiment-rating">
                 <div class="rating-box">
-                  <div class="rating" style="width:${comment.Stars*20}%;"></div> 
+                  <div class="rating" style="width:${comment.sentiment_rating_scaled*20}%;"></div> 
                 </div>
-                (${Number(comment.Stars).toFixed(1)})
-                <p class="badge badge-pill badge-${senti}">${senti} Tone</p>
+                (${Number(comment.sentiment_rating_scaled).toFixed(1)})
+                <p class="badge badge-pill badge-${comment.sentiment_text}">${comment.sentiment_text} Tone</p>
               </span>
-              <p>${comment.Comment}</p>
+              <p>${comment.text}</p>
             </div>
           </div>`
         );
@@ -117,14 +110,14 @@
       $(".reviews-body").html("");
 
       if (!keyword)
-        info.Comments
+        info.comments
           .forEach(displayComment);
       else
-        info.Comments
-          .filter(comment => comment.Comment.toLowerCase().includes(`${keyword}`.toLowerCase()))
+        info.comments
+          .filter(comment => comment.text.toLowerCase().includes(`${keyword}`.toLowerCase()))
           .map(comment => {
             var mapComment = Object.assign({}, comment);
-            mapComment.Comment = mapComment.Comment.replace(new RegExp(`${keyword}`, "ig"), `<mark class="text-white bg-primary">${keyword}</mark>`)
+            mapComment.text = mapComment.text.replace(new RegExp(`${keyword}`, "ig"), `<mark class="text-white bg-primary">${keyword}</mark>`)
             return mapComment;
           })
           .forEach(displayComment);
@@ -137,20 +130,20 @@
 
         info = data[doctor];
 
-        $('.doctor-name').append(`Dr. ${info.Name}`);
+        $('.doctor-name').append(`Dr. ${info.name}`);
 
         $(".rating-table tbody")
           .prepend(`<tr>
             <td>Rating Count</td>
-            <td><div class="rating-line">${info["Review Count"]}</div></td>
+            <td><div class="rating-line">${info["total_reviews"]}</div></td>
             </tr>`);
 
         const ratings = _.mergeWith(_.mapValues(
           _.countBy(
-            info.Comments.map(comment => Number(comment.Stars)),
+            info.comments.map(comment => Number(comment.patient_rating_scaled)),
             Math.round
           ),
-          rating => rating / info.Comments.length
+          rating => rating / info.comments.length
         ), {
           "1": 0,
           "2": 0,
@@ -192,20 +185,28 @@
                       <div class="progress-bar bg-danger" role="progressbar" style="width: ${ratings["1"]}%"></div>
                     </div>
                   </td><td></td></tr>`);
-        [
-          "Total Score", "Total Score", "Total Score", "Total Score"
-        ].forEach(metric => {
-          $(".rating-table tbody")
-            .append(`<tr>
-            <td>${metric}</td>
-            <td><div class="rating-line"><div class="rating-box"><div class="rating" style="width: ${info[metric]*20}%;"></div></div>
-              (${Number(info[metric]).toFixed(1)})</div></td>
-            </tr>`);
-        });
+
+        $(".rating-table tbody")
+          .append(`<tr>
+          <td>Overall Rating</td>
+          <td><div class="rating-line"><div class="rating-box"><div class="rating" style="width: ${info["total_score"]*20}%;"></div></div>
+            (${Number(info["total_score"]).toFixed(1)})</div></td>
+          </tr>`);
+        $(".rating-table tbody")
+          .append(`<tr>
+          <td>Healthgrades Quality Score</td>
+          <td><div class="rating-line"><div class="rating-box"><div class="rating" style="width: ${info["healthgrades_score"]*20}%;"></div></div>
+            (${Number(info["healthgrades_score"]).toFixed(1)})</div></td>
+          </tr>`);
+        $(".rating-table tbody")
+          .append(`<tr>
+          <td>Vitals Quality Score</td>
+          <td><div class="rating-line"><div class="rating-box"><div class="rating" style="width: ${info["vitals_score"]*20}%;"></div></div>
+            (${Number(info["vitals_score"]).toFixed(1)})</div></td>
+          </tr>`);
 
         handleKeyword();
-
-        info.Keywords.forEach(keyword => {
+        info.keywords.forEach(keyword => {
           $(".keywords")
             .append(
               `<div class="btn-group"><button type="button" class="btn btn-primary" onclick="handleKeyword(' ${keyword} ')">${keyword}</button></div>`
@@ -234,16 +235,15 @@
         data.forEach((doctorInfo, index) => {
           $(".doctors-table tbody")
             .append(`<tr>
-            <td><a href="?doctor=${index}">Dr. ${doctorInfo.Name}, ${doctorInfo.Degree}</a></td>
-            <td>${doctorInfo.Specialty}</td>
-            <td>${doctorInfo.Gender}</td>
-            <td>${doctorInfo.Age}</td>
-            <td>${doctorInfo["Review Count"]}</td>` + [
-                "Total Score",
-                // "Friendly Staff", "Scheduling", "Accurate Diagnosis",
-                // "Appropriate Followup", "Spends Time", "Bedside Experience"
-              ].map(field => `<td class="rating-cell"><div class="rating-box"><div class="rating" style="width: ${doctorInfo[field]*20}%;"></div>
-              </div>(${Number(doctorInfo[field]).toFixed(1)})</td>`).join("") + `</tr>`);
+            <td><a href="?doctor=${index}">Dr. ${doctorInfo.name}, ${doctorInfo.degree}</a></td>
+            <td>${doctorInfo.specialty}</td>
+            <td>${doctorInfo.gender}</td>
+            <td>${doctorInfo.age ?? "N/A"}</td>
+            <td>${doctorInfo.total_reviews}</td>
+            <td class="rating-cell"><div class="rating-box"><div class="rating" style="width: ${doctorInfo['total_score']*20}%;"></div></div>(${Number(doctorInfo['total_score']).toFixed(1)})</td>
+            <td class="rating-cell"><div class="rating-box"><div class="rating" style="width: ${doctorInfo['healthgrades_score']*20}%;"></div></div>(${Number(doctorInfo['healthgrades_score']).toFixed(1)})</td>
+            <td class="rating-cell"><div class="rating-box"><div class="rating" style="width: ${doctorInfo['vitals_score']*20}%;"></div></div>(${Number(doctorInfo['vitals_score']).toFixed(1)})</td>
+            </tr>`);
         });
 
         $('.doctors-table').DataTable({
