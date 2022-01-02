@@ -29,6 +29,7 @@
           <th>Overall Rating</th>
           <th>Healthgrades Quality Score</th>
           <th>Vitals Quality Score</th>
+          <!-- NEW PHYSICIAN METRICS GO HERE -->
         </tr>
       </thead>
       <tbody></tbody>
@@ -100,6 +101,7 @@
                 (${Number(comment.sentiment_rating_scaled).toFixed(1)})
                 <p class="badge badge-pill badge-${comment.sentiment_text}">${comment.sentiment_text} Tone</p>
               </span>
+              <!-- NEW COMMENT METRICS GO HERE -->
               <p>${comment.text}</p>
             </div>
           </div>`
@@ -186,6 +188,7 @@
                     </div>
                   </td><td></td></tr>`);
 
+        /* NEW PHYSICIAN METRICS GO HERE */
         $(".rating-table tbody")
           .append(`<tr>
           <td>Overall Rating</td>
@@ -243,6 +246,7 @@
             <td class="rating-cell"><div class="rating-box"><div class="rating" style="width: ${doctorInfo['total_score']*20}%;"></div></div>(${Number(doctorInfo['total_score']).toFixed(1)})</td>
             <td class="rating-cell"><div class="rating-box"><div class="rating" style="width: ${doctorInfo['healthgrades_score']*20}%;"></div></div>(${Number(doctorInfo['healthgrades_score']).toFixed(1)})</td>
             <td class="rating-cell"><div class="rating-box"><div class="rating" style="width: ${doctorInfo['vitals_score']*20}%;"></div></div>(${Number(doctorInfo['vitals_score']).toFixed(1)})</td>
+            <!-- NEW PHYSICIAN METRICS GO HERE -->
             </tr>`);
         });
 
