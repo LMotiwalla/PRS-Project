@@ -54,9 +54,6 @@
       <div class="col-3 offset-1 sidebar">
         <table class="table rating-table">
           <tbody>
-            <tr>
-              <td><canvas id="doctorChart"></canvas></td><td></td>
-            </tr>
           </tbody>
         </table>
       </div>
@@ -96,12 +93,23 @@
          
       $(".reviews-body")
         .append(
-          `<div class="card"><div class="card-body"><div class="rating-box">
-          <div class="rating" style="width:${comment.Stars*20}%;"></div> 
-          </div> (${Number(comment.Stars).toFixed(1)}) - ${comment.Date}
-          <p class="badge badge-pill badge-${comment.Service}">${comment.Service}</p>
-          <p class="badge badge-pill badge-${senti}">${senti} Tone</p>
-          <p>${comment.Comment}</p></div></div>`
+          `<div class="card">
+            <div class="card-body">
+              <div class="rating-box">
+                <div class="rating" style="width:${comment.Stars*20}%;"></div> 
+              </div> 
+              (${Number(comment.Stars).toFixed(1)})
+              <p class="badge badge-pill badge-${comment.Service}">${comment.Service}</p>
+              <span class="sentiment-rating">
+                <div class="rating-box">
+                  <div class="rating" style="width:${comment.Stars*20}%;"></div> 
+                </div>
+                (${Number(comment.Stars).toFixed(1)})
+                <p class="badge badge-pill badge-${senti}">${senti} Tone</p>
+              </span>
+              <p>${comment.Comment}</p>
+            </div>
+          </div>`
         );
     }
 
@@ -136,42 +144,6 @@
             <td>Rating Count</td>
             <td><div class="rating-line">${info["Review Count"]}</div></td>
             </tr>`);
-
-        var ctx = $('#doctorChart');
-
-        var chart = new Chart(ctx, {
-          type: 'line',
-          data: {
-            labels: _.uniq(info.Comments.map(comment => comment.Date)).reverse(),
-            datasets: [{
-              label: 'Patient Star Rating',
-              fill: false,
-              borderWidth: 5,
-              borderColor: 'rgb(255, 99, 132)',
-              data: _.values(info.Comments.reduce((accum, comment) => {
-                accum[comment.Date] = accum[comment.Date] || {
-                  total: 0,
-                  sum: 0
-                };
-                accum[comment.Date].total += 1;
-                accum[comment.Date].sum += Number(comment.Stars);
-                accum[comment.Date].avg = accum[comment.Date].sum / accum[comment.Date].total;
-
-                return accum;
-              }, {})).reverse().map(rating => rating.avg)
-            }]
-          },
-          options: {
-            scales: {
-              yAxes: [{
-                ticks: {
-                  min: 1,
-                  max: 5
-                }
-              }]
-            }
-          }
-        });
 
         const ratings = _.mergeWith(_.mapValues(
           _.countBy(
@@ -221,8 +193,7 @@
                     </div>
                   </td><td></td></tr>`);
         [
-          "Total Score", "Friendly Staff", "Scheduling", "Accurate Diagnosis",
-          "Appropriate Followup", "Spends Time", "Bedside Experience"
+          "Total Score", "Total Score", "Total Score", "Total Score"
         ].forEach(metric => {
           $(".rating-table tbody")
             .append(`<tr>

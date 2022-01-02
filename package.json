@@ -10,11 +10,8 @@
   "license": "UNLICENSED",
   "dependencies": {
     "csv-parse": "^4.11.1",
-    "csv-stringify": "^5.5.0",
     "keyword-analyzer": "0.0.5",
     "lodash": "^4.17.19",
-    "moment": "^2.27.0",
-    "sentiment": "^5.0.2",
     "stopwords": "0.0.9"
   }
 }

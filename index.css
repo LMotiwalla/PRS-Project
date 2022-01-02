@@ -56,18 +56,19 @@ input {
 .badge-Positive {
     color: #fff;
     background-color: #28a745;
-    float: right;
 }
 
 .badge-Neutral {
     color: #fff;
     background-color: #343a40;
-    float: right;
 }
 
 .badge-Negative {
     color: #fff;
     background-color: #dc3545;
+}
+
+.sentiment-rating {
     float: right;
 }
 
@@ -84,5 +85,5 @@ input {
     margin-right: .5em;
     font-size: 0.75rem;
     margin-bottom: 0;
-    width: 25%;
+    width: 30%;
   }
