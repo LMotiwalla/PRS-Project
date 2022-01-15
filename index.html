@@ -55,13 +55,13 @@
         </svg></a>
     </h1>
     <div class="row">
-      <div class="col-md-3 col-10 offset-1 sidebar">
+      <div class="col-xl-5 col-12 sidebar">
         <table class="table rating-table">
           <tbody>
           </tbody>
         </table>
       </div>
-      <div class="col-md-7 col-10 offset-1 offset-md-0 reviews">
+      <div class="col-xl-7 col-12 reviews">
         <div class="keywords btn-toolbar mb-3" role="toolbar"></div>
         <div class="reviews-body"></div>
       </div>
@@ -96,18 +96,20 @@
         .append(
           `<div class="card">
             <div class="card-body">
-              <div class="rating-box">
-                <div class="rating" style="width:${comment.patient_rating_scaled*20}%;"></div> 
-              </div> 
-              (${Number(comment.patient_rating_scaled).toFixed(1)})
-              <p class="badge badge-pill badge-${comment.source}">${comment.source}</p>
-              <span class="sentiment-rating">
+              <div class="ratings-pill">
+                <div class="rating-box">
+                  <div class="rating" style="width:${comment.patient_rating_scaled*20}%;"></div> 
+                </div> 
+                (${Number(comment.patient_rating_scaled).toFixed(1)})
+                <p class="badge badge-pill badge-${comment.source}">${comment.source}</p>
+              </div>
+              <div class="sentiment-rating ratings-pill">
                 <div class="rating-box">
                   <div class="rating" style="width:${comment.sentiment_rating_scaled*20}%;"></div> 
                 </div>
                 (${Number(comment.sentiment_rating_scaled).toFixed(1)})
                 <p class="badge badge-pill badge-${comment.sentiment_text}">${comment.sentiment_text} Tone</p>
-              </span>
+              </div>
               <!-- NEW COMMENT METRICS GO HERE -->
               <p>${comment.text}</p>
             </div>

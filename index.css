@@ -1,5 +1,5 @@
 body {
-    padding-top: 80px;
+    padding: 80px 10px 0 10px;
 }
 
 button,
@@ -68,8 +68,14 @@ input {
     background-color: #dc3545;
 }
 
-.sentiment-rating {
-    float: right;
+@media (min-width: 1200px) {
+    .sentiment-rating {
+        float: right;
+    }
+
+    .ratings-pill {
+        display: inline-block;
+    }
 }
 
 /* .rating-cell {
