@@ -132,12 +132,24 @@
 
         info = data[doctor];
 
-        $('.doctor-name').append(`Dr. ${info.name}`);
+        $('.doctor-name').append(`Dr. ${info.name}, ${info.degree}`);
 
         $(".rating-table tbody")
           .prepend(`<tr>
+            <td>Specialty</td>
+            <td><div class="rating-line">${info["specialty"]}</div></td>
+          </tr><tr>
+            <td>Gender</td>
+            <td><div class="rating-line">${info["gender"]}</div></td>
+          </tr><tr>
+            <td>Age</td>
+            <td><div class="rating-line">${info["age"]}</div></td>
+          </tr><tr>
             <td>Rating Count</td>
             <td><div class="rating-line">${info["total_reviews"]}</div></td>
+          </tr><tr>
+            <td>Comment Count</td>
+            <td><div class="rating-line">${info["total_comments"]}</div></td>
             </tr>`);
 
         const ratings = _.mergeWith(_.mapValues(
