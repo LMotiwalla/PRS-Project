@@ -3,6 +3,7 @@
 
 <head>
   <title>PRS Project</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- CSS only -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
@@ -54,13 +55,13 @@
         </svg></a>
     </h1>
     <div class="row">
-      <div class="col-3 offset-1 sidebar">
+      <div class="col-md-3 col-10 offset-1 sidebar">
         <table class="table rating-table">
           <tbody>
           </tbody>
         </table>
       </div>
-      <div class="col-7 reviews">
+      <div class="col-md-7 col-10 offset-1 offset-md-0 reviews">
         <div class="keywords btn-toolbar mb-3" role="toolbar"></div>
         <div class="reviews-body"></div>
       </div>
@@ -141,22 +142,24 @@
         $('.doctor-name').append(`Dr. ${info.name}, ${info.degree}`);
 
         $(".rating-table tbody")
-          .prepend(`<tr>
-            <td>Specialty</td>
-            <td><div class="rating-line">${info["specialty"]}</div></td>
-          </tr><tr>
-            <td>Gender</td>
-            <td><div class="rating-line">${info["gender"]}</div></td>
-          </tr><tr>
-            <td>Age</td>
-            <td><div class="rating-line">${info["age"]}</div></td>
-          </tr><tr>
-            <td>Rating Count</td>
-            <td><div class="rating-line">${info["total_reviews"]}</div></td>
-          </tr><tr>
-            <td>Comment Count</td>
-            <td><div class="rating-line">${info["total_comments"]}</div></td>
-            </tr>`);
+          .prepend(`
+            <tr>
+              <td>Specialty</td>
+              <td><div class="rating-line">${info["specialty"]}</div></td>
+            </tr><tr>
+              <td>Gender</td>
+              <td><div class="rating-line">${info["gender"]}</div></td>
+            </tr><tr>
+              <td>Age</td>
+              <td><div class="rating-line">${info["age"]}</div></td>
+            </tr><tr>
+              <td>Rating Count</td>
+              <td><div class="rating-line">${info["total_reviews"]}</div></td>
+            </tr><tr>
+              <td>Comment Count</td>
+              <td><div class="rating-line">${info["total_comments"]}</div></td>
+            </tr>
+          `);
 
         const ratings = _.mergeWith(_.mapValues(
           _.countBy(
@@ -170,41 +173,50 @@
           "3": 0,
           "4": 0,
           "5": 0
-        }, (a, b) => (a ? a + b : b).toFixed(3) * 100);
+        }, (a, b) => Math.round((a ? a + b : b) * 1000)/10);
 
-        $(".rating-table tbody")
-          .append(`<tr><td>
-                    <p class="progress-label">
-                      5 Star (${ratings["5"]}%)
-                    </p>
-                    <div class="progress">
-                      <div class="progress-bar bg-success" role="progressbar" style="width: ${ratings["5"]}%"></div>
-                    </div>
-                    <p class="progress-label">
-                      4 Star (${ratings["4"]}%)
-                    </p>
-                    <div class="progress">
-                      <div class="progress-bar" role="progressbar" style="width: ${ratings["4"]}%"></div>
-                    </div>
-                    <p class="progress-label">
-                      3 Star (${ratings["3"]}%)
-                    </p>
-                    <div class="progress">
-                      <div class="progress-bar bg-info" role="progressbar" style="width: ${ratings["3"]}%"></div>
-                    </div>
-                    <p class="progress-label">
-                      2 Star (${ratings["2"]}%)
-                    </p>
-                    <div class="progress">
-                      <div class="progress-bar bg-warning" role="progressbar" style="width: ${ratings["2"]}%"></div>
-                    </div>
-                    <p class="progress-label">
-                      1 Star (${ratings["1"]}%)
-                    </p>
-                    <div class="progress">
-                      <div class="progress-bar bg-danger" role="progressbar" style="width: ${ratings["1"]}%"></div>
-                    </div>
-                  </td><td></td></tr>`);
+        $('.rating-table tbody').append(`
+          <tr>
+            <td colspan="2">
+              <div class="d-flex bd-highlight">
+                <div class="p-2 bd-highlight">
+                  <p class="progress-label">
+                    5 Star (${ratings["5"]}%)
+                  </p>
+                  <p class="progress-label">
+                    4 Star (${ratings["4"]}%)
+                  </p>
+                  <p class="progress-label">
+                    3 Star (${ratings["3"]}%)
+                  </p>
+                  <p class="progress-label">
+                    2 Star (${ratings["2"]}%)
+                  </p>
+                  <p class="progress-label">
+                    1 Star (${ratings["1"]}%)
+                  </p>
+                </div>
+                <div class="p-2 flex-grow-1 bd-highlight">
+                  <div class="progress">
+                    <div class="progress-bar bg-success" role="progressbar" style="width: ${ratings["5"]}%"></div>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: ${ratings["4"]}%"></div>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar bg-info" role="progressbar" style="width: ${ratings["3"]}%"></div>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar bg-warning" role="progressbar" style="width: ${ratings["2"]}%"></div>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar bg-danger" role="progressbar" style="width: ${ratings["1"]}%"></div>
+                  </div>
+                </div>
+              </div>
+            </td>
+          </tr>
+        `);
 
         /* NEW PHYSICIAN METRICS GO HERE */
         $(".rating-table tbody")

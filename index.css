@@ -81,9 +81,8 @@ input {
 }
 
 .progress-label {
-    float: left;
     margin-right: .5em;
     font-size: 0.75rem;
-    margin-bottom: 0;
-    width: 30%;
+    margin-bottom: 5px;
+    height: 1rem;
   }
