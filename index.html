@@ -220,29 +220,33 @@
             (${Number(info["vitals_score"]).toFixed(1)})</div></td>
           </tr>`);
 
-        handleKeyword();
-        info.keywords.forEach(keyword => {
+        if (info.comments.length > 0){
+          handleKeyword();
+          info.keywords.forEach(keyword => {
+            $(".keywords")
+              .append(
+                `<div class="btn-group"><button type="button" class="btn btn-primary" onclick="handleKeyword(' ${keyword} ')">${keyword}</button></div>`
+              );
+          });
+
           $(".keywords")
             .append(
-              `<div class="btn-group"><button type="button" class="btn btn-primary" onclick="handleKeyword(' ${keyword} ')">${keyword}</button></div>`
+              `<div class="input-group">
+                <input id="search" type="text" class="form-control" placeholder="Custom Search">
+              </div>`);
+
+          $('#search').on('input', function () {
+            console.log($("#search").val())
+            handleKeyword($("#search").val());
+          });
+
+          $(".keywords")
+            .append(
+              `<div class="btn-group"><button type="button" class="btn btn-secondary" onclick="resetFilter();">Reset Filters</button></div>`
             );
-        });
-
-        $(".keywords")
-          .append(
-            `<div class="input-group">
-              <input id="search" type="text" class="form-control" placeholder="Custom Search">
-            </div>`);
-
-        $('#search').on('input', function () {
-          console.log($("#search").val())
-          handleKeyword($("#search").val());
-        });
-
-        $(".keywords")
-          .append(
-            `<div class="btn-group"><button type="button" class="btn btn-secondary" onclick="resetFilter();">Reset Filters</button></div>`
-          );
+        } else {
+          $(".reviews-body").append("<p><center>No comments available</center></p>");
+        }
       } else {
         $('.doctor').hide();
         $('.doctors').show();
