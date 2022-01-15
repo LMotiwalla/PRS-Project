@@ -7,7 +7,7 @@
         "gender": "Male",
         "age": 68,
         "total_reviews": 17,
-        "total_score": 3.553235294117647,
+        "total_score": 3.5176470588235293,
         "healthgrades_score": 3,
         "vitals_score": 2.728723404,
         "comments": [
@@ -39,7 +39,7 @@
         "gender": "Female",
         "age": 58,
         "total_reviews": 13,
-        "total_score": 4.327038461538462,
+        "total_score": 4.0769230769230775,
         "healthgrades_score": 4.483410138,
         "vitals_score": 4,
         "comments": [
@@ -79,7 +79,7 @@
         "gender": "Male",
         "age": 52,
         "total_reviews": 22,
-        "total_score": 4.2185227272727275,
+        "total_score": 3.7545454545454544,
         "healthgrades_score": 3.852995392,
         "vitals_score": 4.420212766,
         "comments": [
@@ -133,7 +133,7 @@
         "gender": "Female",
         "age": 49,
         "total_reviews": 11,
-        "total_score": 4.575727272727272,
+        "total_score": 4.545454545454546,
         "healthgrades_score": 4.659447005,
         "vitals_score": 3.290780142,
         "comments": [
@@ -178,7 +178,7 @@
         "gender": "Female",
         "age": 51,
         "total_reviews": 12,
-        "total_score": 4.55225,
+        "total_score": 4.1499999999999995,
         "healthgrades_score": 4.704608295,
         "vitals_score": 4.725177305,
         "comments": [],
@@ -193,7 +193,7 @@
         "gender": "Female",
         "age": 39,
         "total_reviews": 12,
-        "total_score": 4.785083333333334,
+        "total_score": 4.608333333333333,
         "healthgrades_score": 4.795391705,
         "vitals_score": 4.860815603,
         "comments": [],
@@ -208,7 +208,7 @@
         "gender": "Male",
         "age": 46,
         "total_reviews": 32,
-        "total_score": 4.789375,
+        "total_score": 4.625,
         "healthgrades_score": 4.574193548,
         "vitals_score": 4.434397163,
         "comments": [
@@ -250,7 +250,7 @@
         "gender": "Female",
         "age": 57,
         "total_reviews": 26,
-        "total_score": 4.329288461538462,
+        "total_score": 4.165384615384616,
         "healthgrades_score": 4.215207373,
         "vitals_score": 4,
         "comments": [
@@ -280,7 +280,7 @@
         "gender": "Female",
         "age": null,
         "total_reviews": 46,
-        "total_score": 4.469630434782609,
+        "total_score": 4.247826086956522,
         "healthgrades_score": 4.210599078,
         "vitals_score": 4.012411348,
         "comments": [
@@ -331,7 +331,7 @@
         "gender": "Female",
         "age": 42,
         "total_reviews": 21,
-        "total_score": 3.948333333333333,
+        "total_score": 3.6095238095238096,
         "healthgrades_score": 3.789400922,
         "vitals_score": 3.85106383,
         "comments": [
@@ -372,7 +372,7 @@
         "gender": "Female",
         "age": 51,
         "total_reviews": 60,
-        "total_score": 3.985766666666667,
+        "total_score": 3.7666666666666666,
         "healthgrades_score": 3.658525346,
         "vitals_score": 3.012411348,
         "comments": [
@@ -537,7 +537,7 @@
         "gender": "Male",
         "age": 58,
         "total_reviews": 14,
-        "total_score": 4.0235,
+        "total_score": 3.8428571428571425,
         "healthgrades_score": 4.351612903,
         "vitals_score": 4.132092199,
         "comments": [
@@ -587,7 +587,7 @@
         "gender": "Male",
         "age": 61,
         "total_reviews": 25,
-        "total_score": 5.220999999999999,
+        "total_score": 5,
         "healthgrades_score": 5,
         "vitals_score": 4.725177305,
         "comments": [
@@ -652,7 +652,7 @@
         "gender": "Male",
         "age": 69,
         "total_reviews": 47,
-        "total_score": 4.371808510638298,
+        "total_score": 4.223404255319149,
         "healthgrades_score": 4.1359447,
         "vitals_score": 3.85106383,
         "comments": [
@@ -704,7 +704,7 @@
         "gender": "Male",
         "age": 48,
         "total_reviews": 12,
-        "total_score": 4.047999999999999,
+        "total_score": 3.7999999999999994,
         "healthgrades_score": 3.498617512,
         "vitals_score": 5,
         "comments": [],
@@ -719,7 +719,7 @@
         "gender": "Male",
         "age": 77,
         "total_reviews": 13,
-        "total_score": 5.001307692307693,
+        "total_score": 4.946153846153847,
         "healthgrades_score": 4.71843318,
         "vitals_score": 5,
         "comments": [
@@ -758,7 +758,7 @@
         "gender": "Male",
         "age": 42,
         "total_reviews": 16,
-        "total_score": 4.26528125,
+        "total_score": 3.66875,
         "healthgrades_score": 3.834562212,
         "vitals_score": 4,
         "comments": [
@@ -823,7 +823,7 @@
         "gender": "Female",
         "age": 63,
         "total_reviews": 47,
-        "total_score": 3.167021276595745,
+        "total_score": 2.908510638297872,
         "healthgrades_score": 2.567741935,
         "vitals_score": 3,
         "comments": [
@@ -908,7 +908,7 @@
         "gender": "Female",
         "age": 62,
         "total_reviews": 42,
-        "total_score": 3.527,
+        "total_score": 3.0999999999999996,
         "healthgrades_score": 3.552073733,
         "vitals_score": 2.706560284,
         "comments": [
@@ -968,7 +968,7 @@
         "gender": "Male",
         "age": 68,
         "total_reviews": 17,
-        "total_score": 4.291764705882352,
+        "total_score": 3.988235294117647,
         "healthgrades_score": 3.6359447,
         "vitals_score": 3.867907801,
         "comments": [
@@ -1007,7 +1007,7 @@
         "gender": "Male",
         "age": 62,
         "total_reviews": 14,
-        "total_score": 4.273499999999999,
+        "total_score": 3.9499999999999997,
         "healthgrades_score": 3.914285714,
         "vitals_score": 4.854609929,
         "comments": [
@@ -1060,7 +1060,7 @@
         "gender": "Male",
         "age": 49,
         "total_reviews": 16,
-        "total_score": 4.45,
+        "total_score": 4.40625,
         "healthgrades_score": 4,
         "vitals_score": 3.851950355,
         "comments": [],
@@ -1075,7 +1075,7 @@
         "gender": "Female",
         "age": 37,
         "total_reviews": 18,
-        "total_score": 4.396,
+        "total_score": 4.111111111111111,
         "healthgrades_score": 4.277419355,
         "vitals_score": 3.546099291,
         "comments": [],
@@ -1090,7 +1090,7 @@
         "gender": "Female",
         "age": 62,
         "total_reviews": 31,
-        "total_score": 3.911354838709678,
+        "total_score": 3.6870967741935483,
         "healthgrades_score": 3.623963134,
         "vitals_score": 3.593085106,
         "comments": [
@@ -1165,7 +1165,7 @@
         "gender": "Male",
         "age": 46,
         "total_reviews": 39,
-        "total_score": 4.522564102564102,
+        "total_score": 4.3,
         "healthgrades_score": 4.363133641,
         "vitals_score": 3.85106383,
         "comments": [
@@ -1320,7 +1320,7 @@
         "gender": "Male",
         "age": 56,
         "total_reviews": 18,
-        "total_score": 4.982444444444444,
+        "total_score": 4.777777777777778,
         "healthgrades_score": 4.571889401,
         "vitals_score": 4.725177305,
         "comments": [
@@ -1361,7 +1361,7 @@
         "gender": "Male",
         "age": 62,
         "total_reviews": 23,
-        "total_score": 4.3911304347826094,
+        "total_score": 4.195652173913044,
         "healthgrades_score": 4.204608295,
         "vitals_score": 3.557624113,
         "comments": [
@@ -1389,7 +1389,7 @@
         "gender": "Female",
         "age": 48,
         "total_reviews": 31,
-        "total_score": 4.567935483870968,
+        "total_score": 4.529032258064516,
         "healthgrades_score": 4.363133641,
         "vitals_score": 3.867907801,
         "comments": [
@@ -1444,7 +1444,7 @@
         "gender": "Male",
         "age": null,
         "total_reviews": 14,
-        "total_score": 4.364857142857143,
+        "total_score": 4.128571428571428,
         "healthgrades_score": 4.067741935,
         "vitals_score": 4.854609929,
         "comments": [],
@@ -1459,7 +1459,7 @@
         "gender": "Male",
         "age": 59,
         "total_reviews": 16,
-        "total_score": 4.544218750000001,
+        "total_score": 4.14375,
         "healthgrades_score": 4.5,
         "vitals_score": 4.009751773,
         "comments": [
@@ -1510,7 +1510,7 @@
         "gender": "Female",
         "age": 56,
         "total_reviews": 34,
-        "total_score": 1.9179411764705885,
+        "total_score": 1.4176470588235295,
         "healthgrades_score": 2.31797235,
         "vitals_score": 1.406914894,
         "comments": [],
@@ -1525,7 +1525,7 @@
         "gender": "Female",
         "age": 72,
         "total_reviews": 46,
-        "total_score": 2.6508695652173913,
+        "total_score": 2.38695652173913,
         "healthgrades_score": 2.86359447,
         "vitals_score": 1.711879433,
         "comments": [
@@ -1566,7 +1566,7 @@
         "gender": "Female",
         "age": 65,
         "total_reviews": 12,
-        "total_score": 3.8814999999999995,
+        "total_score": 3.4499999999999997,
         "healthgrades_score": 2.915207373,
         "vitals_score": 4.30141844,
         "comments": [],
@@ -1581,7 +1581,7 @@
         "gender": "Female",
         "age": 44,
         "total_reviews": 22,
-        "total_score": 3.9778636363636366,
+        "total_score": 3.9272727272727277,
         "healthgrades_score": 3.857603687,
         "vitals_score": 3.298758865,
         "comments": [
@@ -1610,7 +1610,7 @@
         "gender": "Female",
         "age": null,
         "total_reviews": 35,
-        "total_score": 3.7184000000000004,
+        "total_score": 3.4600000000000004,
         "healthgrades_score": 3.431336406,
         "vitals_score": 5,
         "comments": [
@@ -1795,7 +1795,7 @@
         "gender": "Female",
         "age": 49,
         "total_reviews": 18,
-        "total_score": 4.437777777777778,
+        "total_score": 4.305555555555555,
         "healthgrades_score": 4,
         "vitals_score": 3.728723404,
         "comments": [],
@@ -1810,7 +1810,7 @@
         "gender": "Male",
         "age": 48,
         "total_reviews": 44,
-        "total_score": 3.595738636363636,
+        "total_score": 3.2659090909090907,
         "healthgrades_score": 3.841013825,
         "vitals_score": 3,
         "comments": [
@@ -1864,7 +1864,7 @@
         "gender": "Male",
         "age": 37,
         "total_reviews": 29,
-        "total_score": 4.003586206896551,
+        "total_score": 3.6758620689655173,
         "healthgrades_score": 4.141935484,
         "vitals_score": 3.725177305,
         "comments": [
@@ -1959,7 +1959,7 @@
         "gender": "Male",
         "age": 65,
         "total_reviews": 26,
-        "total_score": 4.548461538461539,
+        "total_score": 4.430769230769231,
         "healthgrades_score": 4.5,
         "vitals_score": 3.84929078,
         "comments": [
@@ -1999,7 +1999,7 @@
         "gender": "Female",
         "age": 43,
         "total_reviews": 45,
-        "total_score": 3.5596000000000005,
+        "total_score": 3.46,
         "healthgrades_score": 3.363133641,
         "vitals_score": 3,
         "comments": [
@@ -2041,7 +2041,7 @@
         "gender": "Male",
         "age": 39,
         "total_reviews": 115,
-        "total_score": 4.626565217391305,
+        "total_score": 4.30608695652174,
         "healthgrades_score": 4.5,
         "vitals_score": 4,
         "comments": [
@@ -2466,7 +2466,7 @@
         "gender": "Male",
         "age": 63,
         "total_reviews": 87,
-        "total_score": 3.2009999999999996,
+        "total_score": 2.918390804597701,
         "healthgrades_score": 2.704608295,
         "vitals_score": 2.860815603,
         "comments": [
@@ -2681,7 +2681,7 @@
         "gender": "Female",
         "age": 56,
         "total_reviews": 17,
-        "total_score": 4.603529411764706,
+        "total_score": 4.476470588235294,
         "healthgrades_score": 4,
         "vitals_score": 4.457446809,
         "comments": [
@@ -2726,7 +2726,7 @@
         "gender": "Female",
         "age": 63,
         "total_reviews": 21,
-        "total_score": 4.467714285714286,
+        "total_score": 4.0476190476190474,
         "healthgrades_score": 4.425806452,
         "vitals_score": 4.003546099,
         "comments": [
@@ -2752,7 +2752,7 @@
         "gender": "Female",
         "age": 63,
         "total_reviews": 36,
-        "total_score": 3.927708333333333,
+        "total_score": 3.55,
         "healthgrades_score": 3.784792627,
         "vitals_score": 3,
         "comments": [
@@ -2802,7 +2802,7 @@
         "gender": "Male",
         "age": 58,
         "total_reviews": 25,
-        "total_score": 3.64912,
+        "total_score": 3.512,
         "healthgrades_score": 3.067741935,
         "vitals_score": 3.415780142,
         "comments": [
@@ -2843,7 +2843,7 @@
         "gender": "Male",
         "age": 49,
         "total_reviews": 28,
-        "total_score": 4.7010000000000005,
+        "total_score": 4.3999999999999995,
         "healthgrades_score": 4.794470046,
         "vitals_score": 4,
         "comments": [
@@ -2908,7 +2908,7 @@
         "gender": "Male",
         "age": 84,
         "total_reviews": 33,
-        "total_score": 3.90940909090909,
+        "total_score": 3.7,
         "healthgrades_score": 3.784792627,
         "vitals_score": 3.716312057,
         "comments": [
@@ -2959,7 +2959,7 @@
         "gender": "Female",
         "age": 64,
         "total_reviews": 44,
-        "total_score": 3.302545454545455,
+        "total_score": 3.127272727272728,
         "healthgrades_score": 3.20921659,
         "vitals_score": 3,
         "comments": [
@@ -2990,7 +2990,7 @@
         "gender": "Male",
         "age": 74,
         "total_reviews": 15,
-        "total_score": 4.1086,
+        "total_score": 3.88,
         "healthgrades_score": 3.853456221,
         "vitals_score": 3.145390071,
         "comments": [
@@ -3020,7 +3020,7 @@
         "gender": "Male",
         "age": 56,
         "total_reviews": 13,
-        "total_score": 5.034615384615384,
+        "total_score": 4.838461538461538,
         "healthgrades_score": 5,
         "vitals_score": 4.148049645,
         "comments": [],
@@ -3035,7 +3035,7 @@
         "gender": "Male",
         "age": 39,
         "total_reviews": 11,
-        "total_score": 5.016363636363636,
+        "total_score": 4.890909090909091,
         "healthgrades_score": 4.862672811,
         "vitals_score": 4.713652482,
         "comments": [
@@ -3064,7 +3064,7 @@
         "gender": "Male",
         "age": 71,
         "total_reviews": 20,
-        "total_score": 4.889200000000001,
+        "total_score": 4.585000000000001,
         "healthgrades_score": 4.494009217,
         "vitals_score": 4.860815603,
         "comments": [],
@@ -3079,7 +3079,7 @@
         "gender": "Male",
         "age": 57,
         "total_reviews": 22,
-        "total_score": 3.985909090909091,
+        "total_score": 3.7636363636363637,
         "healthgrades_score": 3.710599078,
         "vitals_score": 3.274822695,
         "comments": [
@@ -3134,7 +3134,7 @@
         "gender": "Male",
         "age": 53,
         "total_reviews": 73,
-        "total_score": 2.94745205479452,
+        "total_score": 2.8369863013698633,
         "healthgrades_score": 2.204608295,
         "vitals_score": 2.579787234,
         "comments": [
@@ -3176,7 +3176,7 @@
         "gender": "Male",
         "age": 42,
         "total_reviews": 24,
-        "total_score": 4.534375,
+        "total_score": 4.445833333333334,
         "healthgrades_score": 5,
         "vitals_score": 4.860815603,
         "comments": [
@@ -3216,7 +3216,7 @@
         "gender": "Male",
         "age": 44,
         "total_reviews": 13,
-        "total_score": 4.5355384615384615,
+        "total_score": 4.407692307692307,
         "healthgrades_score": 4.86359447,
         "vitals_score": 5,
         "comments": [
@@ -3247,7 +3247,7 @@
         "gender": "Male",
         "age": 74,
         "total_reviews": 19,
-        "total_score": 4.102710526315789,
+        "total_score": 3.9684210526315793,
         "healthgrades_score": 4.500921659,
         "vitals_score": 3.298758865,
         "comments": [],
@@ -3262,7 +3262,7 @@
         "gender": "Female",
         "age": 43,
         "total_reviews": 11,
-        "total_score": 4.404090909090908,
+        "total_score": 4.163636363636363,
         "healthgrades_score": 4.72718894,
         "vitals_score": 4.040780142,
         "comments": [
@@ -3305,7 +3305,7 @@
         "gender": "Female",
         "age": 50,
         "total_reviews": 24,
-        "total_score": 4.6753125,
+        "total_score": 4.545833333333333,
         "healthgrades_score": 4.5,
         "vitals_score": 4,
         "comments": [
@@ -3334,7 +3334,7 @@
         "gender": "Female",
         "age": 69,
         "total_reviews": 33,
-        "total_score": 4.394363636363637,
+        "total_score": 4.381818181818183,
         "healthgrades_score": 4.36359447,
         "vitals_score": 3.728723404,
         "comments": [
@@ -3395,7 +3395,7 @@
         "gender": "Female",
         "age": 45,
         "total_reviews": 22,
-        "total_score": 3.0677499999999998,
+        "total_score": 2.65,
         "healthgrades_score": 2.98202765,
         "vitals_score": 3.267730496,
         "comments": [
@@ -3426,7 +3426,7 @@
         "gender": "Female",
         "age": 61,
         "total_reviews": 43,
-        "total_score": 4.164186046511628,
+        "total_score": 4.093023255813954,
         "healthgrades_score": 4.5,
         "vitals_score": 3.864361702,
         "comments": [
@@ -3455,7 +3455,7 @@
         "gender": "Male",
         "age": 63,
         "total_reviews": 32,
-        "total_score": 4.8062499999999995,
+        "total_score": 4.699999999999999,
         "healthgrades_score": 5,
         "vitals_score": 4,
         "comments": [
@@ -3487,7 +3487,7 @@
         "gender": "Male",
         "age": 49,
         "total_reviews": 13,
-        "total_score": 4.480923076923077,
+        "total_score": 4.299999999999999,
         "healthgrades_score": 4.27281106,
         "vitals_score": 4.132092199,
         "comments": [
@@ -3526,7 +3526,7 @@
         "gender": "Male",
         "age": 70,
         "total_reviews": 31,
-        "total_score": 3.963387096774193,
+        "total_score": 3.783870967741935,
         "healthgrades_score": 3.5,
         "vitals_score": 3.42641844,
         "comments": [
@@ -3591,7 +3591,7 @@
         "gender": "Male",
         "age": 62,
         "total_reviews": 22,
-        "total_score": 4.587840909090909,
+        "total_score": 4.290909090909091,
         "healthgrades_score": 4.794930876,
         "vitals_score": 4.710106383,
         "comments": [
@@ -3632,7 +3632,7 @@
         "gender": "Male",
         "age": 56,
         "total_reviews": 18,
-        "total_score": 4.737500000000001,
+        "total_score": 4.572222222222222,
         "healthgrades_score": 5,
         "vitals_score": 3.986702128,
         "comments": [
@@ -3683,7 +3683,7 @@
         "gender": "Female",
         "age": 45,
         "total_reviews": 16,
-        "total_score": 2.94975,
+        "total_score": 2.65,
         "healthgrades_score": 3.778341014,
         "vitals_score": 2.132092199,
         "comments": [
@@ -3713,7 +3713,7 @@
         "gender": "Male",
         "age": 65,
         "total_reviews": 33,
-        "total_score": 4.8225,
+        "total_score": 4.636363636363637,
         "healthgrades_score": 4.5,
         "vitals_score": 4,
         "comments": [
@@ -3745,7 +3745,7 @@
         "gender": "Female",
         "age": 52,
         "total_reviews": 24,
-        "total_score": 3.7475416666666668,
+        "total_score": 3.608333333333333,
         "healthgrades_score": 3.647004608,
         "vitals_score": 3.725177305,
         "comments": [
@@ -3784,7 +3784,7 @@
         "gender": "Female",
         "age": 56,
         "total_reviews": 31,
-        "total_score": 4.904516129032258,
+        "total_score": 4.735483870967743,
         "healthgrades_score": 4.722580645,
         "vitals_score": 4.864361702,
         "comments": [
@@ -3814,7 +3814,7 @@
         "gender": "Female",
         "age": 59,
         "total_reviews": 18,
-        "total_score": 4.1530555555555555,
+        "total_score": 3.888888888888889,
         "healthgrades_score": 3.571889401,
         "vitals_score": 5,
         "comments": [
@@ -3877,7 +3877,7 @@
         "gender": "Female",
         "age": 51,
         "total_reviews": 27,
-        "total_score": 3.360555555555556,
+        "total_score": 3.1,
         "healthgrades_score": 2.920737327,
         "vitals_score": 3,
         "comments": [
@@ -3905,7 +3905,7 @@
         "gender": "Female",
         "age": 64,
         "total_reviews": 15,
-        "total_score": 4.2591,
+        "total_score": 3.96,
         "healthgrades_score": 4.146082949,
         "vitals_score": 4.867907801,
         "comments": [
@@ -3944,7 +3944,7 @@
         "gender": "Female",
         "age": 54,
         "total_reviews": 22,
-        "total_score": 4.071931818181818,
+        "total_score": 3.9454545454545453,
         "healthgrades_score": 3.5,
         "vitals_score": 3.586879433,
         "comments": [],
@@ -3959,7 +3959,7 @@
         "gender": "Female",
         "age": 47,
         "total_reviews": 18,
-        "total_score": 4.60725,
+        "total_score": 4.35,
         "healthgrades_score": 4.437327189,
         "vitals_score": 3.837765957,
         "comments": [
@@ -4002,7 +4002,7 @@
         "gender": "Female",
         "age": 45,
         "total_reviews": 105,
-        "total_score": 4.428533333333333,
+        "total_score": 4.195238095238095,
         "healthgrades_score": 3.931336406,
         "vitals_score": 3.860815603,
         "comments": [
@@ -4107,7 +4107,7 @@
         "gender": "Female",
         "age": 33,
         "total_reviews": 51,
-        "total_score": 4.442441176470588,
+        "total_score": 4.364705882352941,
         "healthgrades_score": 2.986635945,
         "vitals_score": 4,
         "comments": [
@@ -4192,7 +4192,7 @@
         "gender": "Female",
         "age": 40,
         "total_reviews": 32,
-        "total_score": 4.5134375,
+        "total_score": 4.3375,
         "healthgrades_score": 4.222580645,
         "vitals_score": 5,
         "comments": [
@@ -4287,7 +4287,7 @@
         "gender": "Male",
         "age": 48,
         "total_reviews": 17,
-        "total_score": 4.436029411764705,
+        "total_score": 4.194117647058824,
         "healthgrades_score": 4.1359447,
         "vitals_score": 4.566489362,
         "comments": [
@@ -4326,7 +4326,7 @@
         "gender": "Male",
         "age": 56,
         "total_reviews": 44,
-        "total_score": 3.5008636363636367,
+        "total_score": 3.1772727272727277,
         "healthgrades_score": 3.494009217,
         "vitals_score": 2.860815603,
         "comments": [
@@ -4491,7 +4491,7 @@
         "gender": "Male",
         "age": 70,
         "total_reviews": 22,
-        "total_score": 4.644204545454546,
+        "total_score": 4.536363636363636,
         "healthgrades_score": 4.5,
         "vitals_score": 5,
         "comments": [
@@ -4517,7 +4517,7 @@
         "gender": "Male",
         "age": 68,
         "total_reviews": 23,
-        "total_score": 4.526434782608696,
+        "total_score": 4.404347826086957,
         "healthgrades_score": 4.363133641,
         "vitals_score": 3.732269504,
         "comments": [
@@ -4582,7 +4582,7 @@
         "gender": "Male",
         "age": 69,
         "total_reviews": 21,
-        "total_score": 5.05,
+        "total_score": 4.871428571428571,
         "healthgrades_score": 5,
         "vitals_score": 4,
         "comments": [
@@ -4612,7 +4612,7 @@
         "gender": "Female",
         "age": 39,
         "total_reviews": 12,
-        "total_score": 4.881875,
+        "total_score": 4.766666666666667,
         "healthgrades_score": 4.863133641,
         "vitals_score": 5,
         "comments": [
@@ -4651,7 +4651,7 @@
         "gender": "Male",
         "age": 70,
         "total_reviews": 13,
-        "total_score": 3.8463461538461536,
+        "total_score": 3.646153846153846,
         "healthgrades_score": 4.350691244,
         "vitals_score": 3.406914894,
         "comments": [],
@@ -4666,7 +4666,7 @@
         "gender": "Male",
         "age": 47,
         "total_reviews": 37,
-        "total_score": 3.557621621621622,
+        "total_score": 3.3999999999999995,
         "healthgrades_score": 3.432258065,
         "vitals_score": 3.992907801,
         "comments": [
@@ -4751,7 +4751,7 @@
         "gender": "Male",
         "age": 62,
         "total_reviews": 21,
-        "total_score": 4.5252380952380955,
+        "total_score": 4.128571428571429,
         "healthgrades_score": 3.993548387,
         "vitals_score": 4.135638298,
         "comments": [
@@ -4826,7 +4826,7 @@
         "gender": "Male",
         "age": 55,
         "total_reviews": 14,
-        "total_score": 2.8305,
+        "total_score": 2.442857142857143,
         "healthgrades_score": 3.13640553,
         "vitals_score": 1.271276596,
         "comments": [
@@ -4891,7 +4891,7 @@
         "gender": "Male",
         "age": 59,
         "total_reviews": 17,
-        "total_score": 2.0494117647058827,
+        "total_score": 1.588235294117647,
         "healthgrades_score": 1.953917051,
         "vitals_score": 1.813829787,
         "comments": [
@@ -5006,7 +5006,7 @@
         "gender": "Female",
         "age": 52,
         "total_reviews": 60,
-        "total_score": 4.551333333333333,
+        "total_score": 4.416666666666667,
         "healthgrades_score": 4.431336406,
         "vitals_score": 4,
         "comments": [
@@ -5091,7 +5091,7 @@
         "gender": "Male",
         "age": 68,
         "total_reviews": 25,
-        "total_score": 4.12288,
+        "total_score": 3.992,
         "healthgrades_score": 4.432258065,
         "vitals_score": 2.996453901,
         "comments": [
@@ -5146,7 +5146,7 @@
         "gender": "Male",
         "age": 73,
         "total_reviews": 16,
-        "total_score": 4.58884375,
+        "total_score": 4.38125,
         "healthgrades_score": 4.216129032,
         "vitals_score": 3.267730496,
         "comments": [
@@ -5187,7 +5187,7 @@
         "gender": "Female",
         "age": 46,
         "total_reviews": 62,
-        "total_score": 4.68608870967742,
+        "total_score": 4.540322580645161,
         "healthgrades_score": 4.57281106,
         "vitals_score": 4,
         "comments": [
@@ -5302,7 +5302,7 @@
         "gender": "Male",
         "age": 46,
         "total_reviews": 27,
-        "total_score": 4.62775925925926,
+        "total_score": 4.422222222222222,
         "healthgrades_score": 4.704608295,
         "vitals_score": 3.993794326,
         "comments": [
@@ -5355,7 +5355,7 @@
         "gender": "Male",
         "age": 41,
         "total_reviews": 20,
-        "total_score": 4.581574999999999,
+        "total_score": 4.159999999999999,
         "healthgrades_score": 4.20875576,
         "vitals_score": 4.867907801,
         "comments": [],
@@ -5370,7 +5370,7 @@
         "gender": "Male",
         "age": null,
         "total_reviews": 48,
-        "total_score": 4.7824479166666665,
+        "total_score": 4.535416666666666,
         "healthgrades_score": 4.5,
         "vitals_score": 4.586879433,
         "comments": [
@@ -5441,7 +5441,7 @@
         "gender": "Male",
         "age": 47,
         "total_reviews": 43,
-        "total_score": 4.360372093023256,
+        "total_score": 4.1976744186046515,
         "healthgrades_score": 4.071889401,
         "vitals_score": 3.854609929,
         "comments": [
@@ -5526,7 +5526,7 @@
         "gender": "Male",
         "age": 71,
         "total_reviews": 42,
-        "total_score": 3.601107142857143,
+        "total_score": 3.5,
         "healthgrades_score": 3.431797235,
         "vitals_score": 2.586879433,
         "comments": [
@@ -5601,7 +5601,7 @@
         "gender": "Male",
         "age": 58,
         "total_reviews": 22,
-        "total_score": 3.4921363636363636,
+        "total_score": 3.090909090909091,
         "healthgrades_score": 3.851612903,
         "vitals_score": 2.406914894,
         "comments": [
@@ -5644,7 +5644,7 @@
         "gender": "Male",
         "age": 42,
         "total_reviews": 43,
-        "total_score": 4.847988372093024,
+        "total_score": 4.502325581395349,
         "healthgrades_score": 4.931336406,
         "vitals_score": 2.999113475,
         "comments": [
@@ -5739,7 +5739,7 @@
         "gender": "Female",
         "age": 58,
         "total_reviews": 19,
-        "total_score": 5.178947368421053,
+        "total_score": 5,
         "healthgrades_score": 5,
         "vitals_score": 5,
         "comments": [],
@@ -5754,7 +5754,7 @@
         "gender": "Male",
         "age": 47,
         "total_reviews": 55,
-        "total_score": 4.71050909090909,
+        "total_score": 4.514545454545455,
         "healthgrades_score": 4.363133641,
         "vitals_score": 4,
         "comments": [
@@ -5794,7 +5794,7 @@
         "gender": "Female",
         "age": 37,
         "total_reviews": 15,
-        "total_score": 4.577,
+        "total_score": 4.28,
         "healthgrades_score": 4.142857143,
         "vitals_score": 4.864361702,
         "comments": [],
@@ -5809,7 +5809,7 @@
         "gender": "Female",
         "age": 47,
         "total_reviews": 10,
-        "total_score": 4.7125,
+        "total_score": 4.5,
         "healthgrades_score": 5,
         "vitals_score": 5,
         "comments": [],
@@ -5824,7 +5824,7 @@
         "gender": "Female",
         "age": 62,
         "total_reviews": 41,
-        "total_score": 4.772146341463414,
+        "total_score": 4.204878048780488,
         "healthgrades_score": 4.425806452,
         "vitals_score": 4,
         "comments": [
@@ -5939,7 +5939,7 @@
         "gender": "Female",
         "age": 52,
         "total_reviews": 17,
-        "total_score": 3.722235294117647,
+        "total_score": 3.011764705882353,
         "healthgrades_score": 3.323963134,
         "vitals_score": 4,
         "comments": [
@@ -5968,7 +5968,7 @@
         "gender": "Female",
         "age": 50,
         "total_reviews": 19,
-        "total_score": 4.104842105263157,
+        "total_score": 3.973684210526316,
         "healthgrades_score": 3.789400922,
         "vitals_score": 4,
         "comments": [],
@@ -5983,7 +5983,7 @@
         "gender": "Male",
         "age": 56,
         "total_reviews": 58,
-        "total_score": 3.3993362068965514,
+        "total_score": 3.0224137931034485,
         "healthgrades_score": 3.27235023,
         "vitals_score": 3,
         "comments": [
@@ -6138,7 +6138,7 @@
         "gender": "Female",
         "age": 46,
         "total_reviews": 42,
-        "total_score": 4.471809523809523,
+        "total_score": 4.404761904761905,
         "healthgrades_score": 4.567741935,
         "vitals_score": 4,
         "comments": [
@@ -6190,7 +6190,7 @@
         "gender": "Male",
         "age": 55,
         "total_reviews": 12,
-        "total_score": 3.5140833333333332,
+        "total_score": 3.0666666666666664,
         "healthgrades_score": 3.840552995,
         "vitals_score": 3.125,
         "comments": [
@@ -6219,7 +6219,7 @@
         "gender": "Male",
         "age": 48,
         "total_reviews": 40,
-        "total_score": 4.130125,
+        "total_score": 3.7,
         "healthgrades_score": 3.846543779,
         "vitals_score": 2.579787234,
         "comments": [
@@ -6334,7 +6334,7 @@
         "gender": "Male",
         "age": 50,
         "total_reviews": 33,
-        "total_score": 4.8525,
+        "total_score": 4.609090909090909,
         "healthgrades_score": 4.5,
         "vitals_score": 4.444148936,
         "comments": [
@@ -6408,7 +6408,7 @@
         "gender": "Male",
         "age": 67,
         "total_reviews": 18,
-        "total_score": 4.014083333333334,
+        "total_score": 3.566666666666666,
         "healthgrades_score": 3.704608295,
         "vitals_score": 3.813829787,
         "comments": [],
@@ -6423,7 +6423,7 @@
         "gender": "Male",
         "age": 64,
         "total_reviews": 52,
-        "total_score": 3.888605769230769,
+        "total_score": 3.4326923076923075,
         "healthgrades_score": 3.794930876,
         "vitals_score": 3.57358156,
         "comments": [
@@ -6478,7 +6478,7 @@
         "gender": "Male",
         "age": 56,
         "total_reviews": 11,
-        "total_score": 5.159318181818182,
+        "total_score": 4.636363636363637,
         "healthgrades_score": 4.931336406,
         "vitals_score": 4.728723404,
         "comments": [],
@@ -6493,7 +6493,7 @@
         "gender": "Male",
         "age": 62,
         "total_reviews": 18,
-        "total_score": 4.267083333333334,
+        "total_score": 4.033333333333333,
         "healthgrades_score": 4.5,
         "vitals_score": 2.705673759,
         "comments": [
@@ -6548,7 +6548,7 @@
         "gender": "Male",
         "age": 45,
         "total_reviews": 23,
-        "total_score": 4.638630434782609,
+        "total_score": 4.469565217391305,
         "healthgrades_score": 4.567281106,
         "vitals_score": 4,
         "comments": [
@@ -6576,7 +6576,7 @@
         "gender": "Male",
         "age": 62,
         "total_reviews": 29,
-        "total_score": 3.760689655172414,
+        "total_score": 3.7172413793103454,
         "healthgrades_score": 4.221198157,
         "vitals_score": 3,
         "comments": [],
@@ -6591,7 +6591,7 @@
         "gender": "Male",
         "age": 47,
         "total_reviews": 18,
-        "total_score": 5.199694444444445,
+        "total_score": 5,
         "healthgrades_score": 4.863133641,
         "vitals_score": 4.579787234,
         "comments": [
@@ -6656,7 +6656,7 @@
         "gender": "Male",
         "age": 65,
         "total_reviews": 11,
-        "total_score": 2.6395454545454546,
+        "total_score": 2.2545454545454544,
         "healthgrades_score": 3.914285714,
         "vitals_score": 1.132092199,
         "comments": [],
@@ -6671,7 +6671,7 @@
         "gender": "Male",
         "age": 51,
         "total_reviews": 18,
-        "total_score": 4.94125,
+        "total_score": 4.800000000000001,
         "healthgrades_score": 4.5,
         "vitals_score": 4.574468085,
         "comments": [
@@ -6700,7 +6700,7 @@
         "gender": "Male",
         "age": 55,
         "total_reviews": 22,
-        "total_score": 4.845,
+        "total_score": 4.581818181818182,
         "healthgrades_score": 4.5,
         "vitals_score": 4.732269504,
         "comments": [
@@ -6743,7 +6743,7 @@
         "gender": "Female",
         "age": 58,
         "total_reviews": 29,
-        "total_score": 3.3515517241379307,
+        "total_score": 3.206896551724138,
         "healthgrades_score": 3.704608295,
         "vitals_score": 3,
         "comments": [
@@ -6783,7 +6783,7 @@
         "gender": "Female",
         "age": 59,
         "total_reviews": 27,
-        "total_score": 4.086814814814815,
+        "total_score": 3.807407407407408,
         "healthgrades_score": 3.568202765,
         "vitals_score": 3.854609929,
         "comments": [
@@ -6814,7 +6814,7 @@
         "gender": "Female",
         "age": 48,
         "total_reviews": 39,
-        "total_score": 4.479846153846154,
+        "total_score": 4.3076923076923075,
         "healthgrades_score": 4.214746544,
         "vitals_score": 4,
         "comments": [
@@ -6889,7 +6889,7 @@
         "gender": "Female",
         "age": 56,
         "total_reviews": 13,
-        "total_score": 3.568153846153846,
+        "total_score": 3.4846153846153842,
         "healthgrades_score": 2.931797235,
         "vitals_score": 3.864361702,
         "comments": [
@@ -6920,7 +6920,7 @@
         "gender": "Female",
         "age": 38,
         "total_reviews": 20,
-        "total_score": 4.5939499999999995,
+        "total_score": 4.215,
         "healthgrades_score": 4.131797235,
         "vitals_score": 5,
         "comments": [
@@ -6995,7 +6995,7 @@
         "gender": "Male",
         "age": 69,
         "total_reviews": 19,
-        "total_score": 4.727631578947368,
+        "total_score": 4.526315789473684,
         "healthgrades_score": 5,
         "vitals_score": 3.997340426,
         "comments": [
@@ -7023,7 +7023,7 @@
         "gender": "Female",
         "age": 56,
         "total_reviews": 35,
-        "total_score": 3.4902142857142855,
+        "total_score": 3.3942857142857146,
         "healthgrades_score": 3.5,
         "vitals_score": 3.139184397,
         "comments": [
@@ -7065,7 +7065,7 @@
         "gender": "Male",
         "age": 63,
         "total_reviews": 49,
-        "total_score": 4.966326530612245,
+        "total_score": 4.736734693877551,
         "healthgrades_score": 5,
         "vitals_score": 4.148049645,
         "comments": [
@@ -7200,7 +7200,7 @@
         "gender": "Male",
         "age": 64,
         "total_reviews": 23,
-        "total_score": 4.360869565217391,
+        "total_score": 4.073913043478261,
         "healthgrades_score": 4,
         "vitals_score": 5,
         "comments": [
@@ -7239,7 +7239,7 @@
         "gender": "Female",
         "age": 52,
         "total_reviews": 24,
-        "total_score": 4.183,
+        "total_score": 4.0249999999999995,
         "healthgrades_score": 4.084792627,
         "vitals_score": 4.571808511,
         "comments": [],
@@ -7254,7 +7254,7 @@
         "gender": "Female",
         "age": 34,
         "total_reviews": 31,
-        "total_score": 3.2427741935483874,
+        "total_score": 3.041935483870968,
         "healthgrades_score": 3.563133641,
         "vitals_score": 2.535460993,
         "comments": [
@@ -7308,7 +7308,7 @@
         "gender": "Female",
         "age": 46,
         "total_reviews": 26,
-        "total_score": 4.546,
+        "total_score": 4.45,
         "healthgrades_score": 4.232258065,
         "vitals_score": 3.864361702,
         "comments": [],
@@ -7323,7 +7323,7 @@
         "gender": "Female",
         "age": 48,
         "total_reviews": 17,
-        "total_score": 4.521911764705883,
+        "total_score": 4.247058823529411,
         "healthgrades_score": 3.994930876,
         "vitals_score": 4,
         "comments": [
@@ -7353,7 +7353,7 @@
         "gender": "Female",
         "age": null,
         "total_reviews": 28,
-        "total_score": 4.856,
+        "total_score": 4.55,
         "healthgrades_score": 4.431336406,
         "vitals_score": 5,
         "comments": [
@@ -7478,7 +7478,7 @@
         "gender": "Male",
         "age": 60,
         "total_reviews": 24,
-        "total_score": 2.9734375000000006,
+        "total_score": 2.625,
         "healthgrades_score": 3.278801843,
         "vitals_score": 1.554078014,
         "comments": [
@@ -7563,7 +7563,7 @@
         "gender": "Female",
         "age": 55,
         "total_reviews": 50,
-        "total_score": 2.99812,
+        "total_score": 2.592,
         "healthgrades_score": 2.931797235,
         "vitals_score": 2.447695035,
         "comments": [
@@ -7758,7 +7758,7 @@
         "gender": "Female",
         "age": 54,
         "total_reviews": 19,
-        "total_score": 3.6968421052631575,
+        "total_score": 3.4947368421052634,
         "healthgrades_score": 4,
         "vitals_score": 2.860815603,
         "comments": [
@@ -7800,7 +7800,7 @@
         "gender": "Male",
         "age": 52,
         "total_reviews": 13,
-        "total_score": 4.023692307692308,
+        "total_score": 3.769230769230769,
         "healthgrades_score": 4.067741935,
         "vitals_score": 4.430851064,
         "comments": [
@@ -7854,7 +7854,7 @@
         "gender": "Male",
         "age": 79,
         "total_reviews": 29,
-        "total_score": 4.83698275862069,
+        "total_score": 4.755172413793104,
         "healthgrades_score": 4.5,
         "vitals_score": 4.579787234,
         "comments": [
@@ -7907,7 +7907,7 @@
         "gender": "Female",
         "age": 52,
         "total_reviews": 21,
-        "total_score": 3.9216428571428574,
+        "total_score": 3.685714285714286,
         "healthgrades_score": 3.27235023,
         "vitals_score": 3.434397163,
         "comments": [
@@ -7972,7 +7972,7 @@
         "gender": "Female",
         "age": 42,
         "total_reviews": 16,
-        "total_score": 4.610250000000001,
+        "total_score": 4.25,
         "healthgrades_score": 4.350691244,
         "vitals_score": 4.57358156,
         "comments": [
@@ -8004,7 +8004,7 @@
         "gender": "Female",
         "age": 52,
         "total_reviews": 13,
-        "total_score": 3.9781538461538464,
+        "total_score": 3.769230769230769,
         "healthgrades_score": 3.999539171,
         "vitals_score": 4.600177305,
         "comments": [
@@ -8032,7 +8032,7 @@
         "gender": "Female",
         "age": 56,
         "total_reviews": 47,
-        "total_score": 5.162765957446808,
+        "total_score": 4.923404255319149,
         "healthgrades_score": 5,
         "vitals_score": 4.447695035,
         "comments": [
@@ -8097,7 +8097,7 @@
         "gender": "Female",
         "age": 41,
         "total_reviews": 23,
-        "total_score": 4.5001739130434775,
+        "total_score": 4.269565217391304,
         "healthgrades_score": 4.431336406,
         "vitals_score": 4.566489362,
         "comments": [
@@ -8172,7 +8172,7 @@
         "gender": "Female",
         "age": 49,
         "total_reviews": 17,
-        "total_score": 3.9582352941176464,
+        "total_score": 3.829411764705882,
         "healthgrades_score": 4.07281106,
         "vitals_score": 2.561170213,
         "comments": [],
@@ -8187,7 +8187,7 @@
         "gender": "Female",
         "age": 59,
         "total_reviews": 19,
-        "total_score": 4.334210526315789,
+        "total_score": 4.163157894736842,
         "healthgrades_score": 4.00921659,
         "vitals_score": 3.583333333,
         "comments": [
@@ -8241,7 +8241,7 @@
         "gender": "Female",
         "age": 57,
         "total_reviews": 40,
-        "total_score": 2.1811,
+        "total_score": 1.9049999999999998,
         "healthgrades_score": 1.84516129,
         "vitals_score": 2,
         "comments": [
@@ -8356,7 +8356,7 @@
         "gender": "Female",
         "age": 49,
         "total_reviews": 26,
-        "total_score": 4.307557692307692,
+        "total_score": 4.207692307692308,
         "healthgrades_score": 4.505529954,
         "vitals_score": 3.437943262,
         "comments": [
@@ -8388,7 +8388,7 @@
         "gender": "Female",
         "age": 56,
         "total_reviews": 52,
-        "total_score": 3.1284615384615386,
+        "total_score": 2.9153846153846152,
         "healthgrades_score": 2.630414747,
         "vitals_score": 2.987588652,
         "comments": [
@@ -8453,7 +8453,7 @@
         "gender": "Female",
         "age": 59,
         "total_reviews": 33,
-        "total_score": 2.6072121212121213,
+        "total_score": 2.1363636363636362,
         "healthgrades_score": 2.40921659,
         "vitals_score": 2.406914894,
         "comments": [
@@ -8505,7 +8505,7 @@
         "gender": "Female",
         "age": 57,
         "total_reviews": 29,
-        "total_score": 2.994396551724138,
+        "total_score": 2.679310344827586,
         "healthgrades_score": 2.430875576,
         "vitals_score": 2.038120567,
         "comments": [
@@ -8570,7 +8570,7 @@
         "gender": "Female",
         "age": 61,
         "total_reviews": 32,
-        "total_score": 4.86359375,
+        "total_score": 4.7,
         "healthgrades_score": 4.653456221,
         "vitals_score": 4.298758865,
         "comments": [
@@ -8599,7 +8599,7 @@
         "gender": "Female",
         "age": 77,
         "total_reviews": 24,
-        "total_score": 2.4751250000000002,
+        "total_score": 2.291666666666667,
         "healthgrades_score": 1.777880184,
         "vitals_score": 2.986702128,
         "comments": [],
@@ -8614,7 +8614,7 @@
         "gender": "Female",
         "age": 35,
         "total_reviews": 19,
-        "total_score": 4.078473684210527,
+        "total_score": 4.184210526315789,
         "healthgrades_score": 2.776958525,
         "vitals_score": 3.728723404,
         "comments": [
@@ -8709,7 +8709,7 @@
         "gender": "Female",
         "age": 48,
         "total_reviews": 12,
-        "total_score": 3.56875,
+        "total_score": 3.1,
         "healthgrades_score": 3.629032258,
         "vitals_score": 4.583333333,
         "comments": [
@@ -8763,7 +8763,7 @@
         "gender": "Female",
         "age": 47,
         "total_reviews": 28,
-        "total_score": 4.985142857142857,
+        "total_score": 4.514285714285714,
         "healthgrades_score": 4.722580645,
         "vitals_score": 4.860815603,
         "comments": [
@@ -8858,7 +8858,7 @@
         "gender": "Female",
         "age": 53,
         "total_reviews": 33,
-        "total_score": 4.06780303030303,
+        "total_score": 3.9454545454545453,
         "healthgrades_score": 3.721198157,
         "vitals_score": 3.579787234,
         "comments": [
@@ -8919,7 +8919,7 @@
         "gender": "Male",
         "age": 49,
         "total_reviews": 66,
-        "total_score": 4.785719696969697,
+        "total_score": 4.606060606060606,
         "healthgrades_score": 4.5,
         "vitals_score": 3.860815603,
         "comments": [
@@ -8994,7 +8994,7 @@
         "gender": "Male",
         "age": 67,
         "total_reviews": 19,
-        "total_score": 3.492368421052631,
+        "total_score": 3.1789473684210527,
         "healthgrades_score": 3.129493088,
         "vitals_score": 3.416666667,
         "comments": [
@@ -9025,7 +9025,7 @@
         "gender": "Male",
         "age": 63,
         "total_reviews": 27,
-        "total_score": 4.363314814814815,
+        "total_score": 4.011111111111111,
         "healthgrades_score": 4.084331797,
         "vitals_score": 3.725177305,
         "comments": [],
@@ -9040,7 +9040,7 @@
         "gender": "Female",
         "age": 35,
         "total_reviews": 12,
-        "total_score": 4.291458333333334,
+        "total_score": 4.15,
         "healthgrades_score": 4.278801843,
         "vitals_score": 4.434397163,
         "comments": [
@@ -9090,7 +9090,7 @@
         "gender": "Female",
         "age": 61,
         "total_reviews": 12,
-        "total_score": 4.343958333333334,
+        "total_score": 4.316666666666667,
         "healthgrades_score": 3.931336406,
         "vitals_score": 3.596631206,
         "comments": [],
@@ -9105,7 +9105,7 @@
         "gender": "Female",
         "age": 50,
         "total_reviews": 18,
-        "total_score": 4.414,
+        "total_score": 4.166666666666667,
         "healthgrades_score": 4.647004608,
         "vitals_score": 4.718971631,
         "comments": [
@@ -9145,7 +9145,7 @@
         "gender": "Female",
         "age": 53,
         "total_reviews": 30,
-        "total_score": 2.4349333333333334,
+        "total_score": 2.08,
         "healthgrades_score": 2.27235023,
         "vitals_score": 2,
         "comments": [
@@ -9310,7 +9310,7 @@
         "gender": "Female",
         "age": 40,
         "total_reviews": 33,
-        "total_score": 3.584363636363636,
+        "total_score": 3.0818181818181825,
         "healthgrades_score": 3.125345622,
         "vitals_score": 2.996453901,
         "comments": [
@@ -9349,7 +9349,7 @@
         "gender": "Male",
         "age": 55,
         "total_reviews": 39,
-        "total_score": 4.958833333333333,
+        "total_score": 4.8,
         "healthgrades_score": 4.863133641,
         "vitals_score": 4.593085106,
         "comments": [
@@ -9413,7 +9413,7 @@
         "gender": "Female",
         "age": 52,
         "total_reviews": 23,
-        "total_score": 4.129891304347826,
+        "total_score": 3.9782608695652173,
         "healthgrades_score": 4.1359447,
         "vitals_score": 3.434397163,
         "comments": [
@@ -9454,7 +9454,7 @@
         "gender": "Female",
         "age": 48,
         "total_reviews": 18,
-        "total_score": 4.744055555555556,
+        "total_score": 4.522222222222222,
         "healthgrades_score": 4.574193548,
         "vitals_score": 3.867907801,
         "comments": [
@@ -9506,7 +9506,7 @@
         "gender": "Male",
         "age": 54,
         "total_reviews": 50,
-        "total_score": 4.192279999999999,
+        "total_score": 4.135999999999999,
         "healthgrades_score": 4.363133641,
         "vitals_score": 3.296985816,
         "comments": [
@@ -9537,7 +9537,7 @@
         "gender": "Female",
         "age": 45,
         "total_reviews": 27,
-        "total_score": 4.512388888888888,
+        "total_score": 4.196296296296295,
         "healthgrades_score": 4.568202765,
         "vitals_score": 4,
         "comments": [
@@ -9692,7 +9692,7 @@
         "gender": "Male",
         "age": 46,
         "total_reviews": 22,
-        "total_score": 3.7134090909090904,
+        "total_score": 3.2409090909090907,
         "healthgrades_score": 3.77235023,
         "vitals_score": 1.97429078,
         "comments": [
@@ -9720,7 +9720,7 @@
         "gender": "Female",
         "age": 46,
         "total_reviews": 20,
-        "total_score": 4.1342,
+        "total_score": 3.71,
         "healthgrades_score": 3.784331797,
         "vitals_score": 4.867907801,
         "comments": [
@@ -9805,7 +9805,7 @@
         "gender": "Female",
         "age": 48,
         "total_reviews": 41,
-        "total_score": 4.817512195121951,
+        "total_score": 4.487804878048781,
         "healthgrades_score": 4.931797235,
         "vitals_score": 3.864361702,
         "comments": [
@@ -9846,7 +9846,7 @@
         "gender": "Female",
         "age": 48,
         "total_reviews": 30,
-        "total_score": 4.606866666666667,
+        "total_score": 4.313333333333333,
         "healthgrades_score": 4.358525346,
         "vitals_score": 4.732269504,
         "comments": [
@@ -9898,7 +9898,7 @@
         "gender": "Female",
         "age": 48,
         "total_reviews": 23,
-        "total_score": 4.6,
+        "total_score": 4.408695652173913,
         "healthgrades_score": 4,
         "vitals_score": 4.442375887,
         "comments": [],
@@ -9913,7 +9913,7 @@
         "gender": "Male",
         "age": 68,
         "total_reviews": 22,
-        "total_score": 4.837272727272727,
+        "total_score": 4.5636363636363635,
         "healthgrades_score": 4.6359447,
         "vitals_score": 3.593971631,
         "comments": [
@@ -9978,7 +9978,7 @@
         "gender": "Male",
         "age": 51,
         "total_reviews": 16,
-        "total_score": 4.88075,
+        "total_score": 4.699999999999999,
         "healthgrades_score": 4.57281106,
         "vitals_score": 4,
         "comments": [],
@@ -9993,7 +9993,7 @@
         "gender": "Male",
         "age": 63,
         "total_reviews": 13,
-        "total_score": 4.826076923076923,
+        "total_score": 4.676923076923076,
         "healthgrades_score": 4.86359447,
         "vitals_score": 4.735815603,
         "comments": [
@@ -10023,7 +10023,7 @@
         "gender": "Male",
         "age": 72,
         "total_reviews": 20,
-        "total_score": 4.86125,
+        "total_score": 4.67,
         "healthgrades_score": 5,
         "vitals_score": 4,
         "comments": [],
@@ -10038,7 +10038,7 @@
         "gender": "Male",
         "age": 42,
         "total_reviews": 21,
-        "total_score": 4.566928571428571,
+        "total_score": 4.314285714285714,
         "healthgrades_score": 4.782949309,
         "vitals_score": 4.257978723,
         "comments": [
@@ -10081,7 +10081,7 @@
         "gender": "Male",
         "age": 51,
         "total_reviews": 15,
-        "total_score": 4.7703,
+        "total_score": 4.5600000000000005,
         "healthgrades_score": 4.931336406,
         "vitals_score": 4,
         "comments": [
@@ -10121,7 +10121,7 @@
         "gender": "Male",
         "age": 63,
         "total_reviews": 29,
-        "total_score": 4.727689655172413,
+        "total_score": 4.69655172413793,
         "healthgrades_score": 4.72718894,
         "vitals_score": 4.860815603,
         "comments": [
@@ -10151,7 +10151,7 @@
         "gender": "Male",
         "age": 49,
         "total_reviews": 25,
-        "total_score": 4.1068,
+        "total_score": 3.78,
         "healthgrades_score": 3.794470046,
         "vitals_score": 4.286347518,
         "comments": [
@@ -10180,7 +10180,7 @@
         "gender": "Female",
         "age": 57,
         "total_reviews": 13,
-        "total_score": 4.758692307692308,
+        "total_score": 4.538461538461539,
         "healthgrades_score": 4.432258065,
         "vitals_score": 4.867907801,
         "comments": [],
@@ -10195,7 +10195,7 @@
         "gender": "Female",
         "age": 51,
         "total_reviews": 20,
-        "total_score": 4.158949999999999,
+        "total_score": 3.6700000000000004,
         "healthgrades_score": 3.777419355,
         "vitals_score": 4.135638298,
         "comments": [
@@ -10270,7 +10270,7 @@
         "gender": "Male",
         "age": 44,
         "total_reviews": 31,
-        "total_score": 3.437032258064516,
+        "total_score": 3.0677419354838706,
         "healthgrades_score": 3.204608295,
         "vitals_score": 3.267730496,
         "comments": [
@@ -10375,7 +10375,7 @@
         "gender": "Female",
         "age": 41,
         "total_reviews": 23,
-        "total_score": 3.578260869565218,
+        "total_score": 3.42608695652174,
         "healthgrades_score": 3.640552995,
         "vitals_score": 2.293439716,
         "comments": [
@@ -10438,7 +10438,7 @@
         "gender": "Female",
         "age": 48,
         "total_reviews": 16,
-        "total_score": 4.746874999999999,
+        "total_score": 4.324999999999999,
         "healthgrades_score": 4.193548387,
         "vitals_score": 4.437943262,
         "comments": [
@@ -10501,7 +10501,7 @@
         "gender": "Female",
         "age": 58,
         "total_reviews": 28,
-        "total_score": 3.8261249999999998,
+        "total_score": 3.6999999999999997,
         "healthgrades_score": 4.704608295,
         "vitals_score": 2.705673759,
         "comments": [],
@@ -10516,7 +10516,7 @@
         "gender": "Female",
         "age": 73,
         "total_reviews": 51,
-        "total_score": 4.404705882352941,
+        "total_score": 3.9176470588235293,
         "healthgrades_score": 4,
         "vitals_score": 5,
         "comments": [
@@ -10571,7 +10571,7 @@
         "gender": "Male",
         "age": 64,
         "total_reviews": 23,
-        "total_score": 4.48591304347826,
+        "total_score": 4.282608695652174,
         "healthgrades_score": 4.363133641,
         "vitals_score": 3.563829787,
         "comments": [
@@ -10599,7 +10599,7 @@
         "gender": "Female",
         "age": 38,
         "total_reviews": 11,
-        "total_score": 4.640818181818182,
+        "total_score": 4.5636363636363635,
         "healthgrades_score": 4.001382488,
         "vitals_score": 4.72251773,
         "comments": [],
@@ -10614,7 +10614,7 @@
         "gender": "Male",
         "age": 65,
         "total_reviews": 34,
-        "total_score": 4.64464705882353,
+        "total_score": 4.4411764705882355,
         "healthgrades_score": 4.863133641,
         "vitals_score": 4,
         "comments": [],
@@ -10629,7 +10629,7 @@
         "gender": "Male",
         "age": 38,
         "total_reviews": 39,
-        "total_score": 4.42298717948718,
+        "total_score": 4.25897435897436,
         "healthgrades_score": 4.130414747,
         "vitals_score": 4.132092199,
         "comments": [
@@ -10693,7 +10693,7 @@
         "gender": "Female",
         "age": null,
         "total_reviews": 20,
-        "total_score": 3.5079749999999996,
+        "total_score": 3.065,
         "healthgrades_score": 4.130414747,
         "vitals_score": 2.706560284,
         "comments": [
@@ -10778,7 +10778,7 @@
         "gender": "Female",
         "age": 39,
         "total_reviews": 18,
-        "total_score": 3.9274999999999998,
+        "total_score": 3.716666666666667,
         "healthgrades_score": 3.6359447,
         "vitals_score": 3,
         "comments": [
@@ -10817,7 +10817,7 @@
         "gender": "Female",
         "age": 50,
         "total_reviews": 57,
-        "total_score": 3.6578947368421053,
+        "total_score": 3.231578947368421,
         "healthgrades_score": 3.419354839,
         "vitals_score": 3.132092199,
         "comments": [
@@ -10952,7 +10952,7 @@
         "gender": "Female",
         "age": 49,
         "total_reviews": 34,
-        "total_score": 5.104970588235295,
+        "total_score": 4.9676470588235295,
         "healthgrades_score": 4.795391705,
         "vitals_score": 4.447695035,
         "comments": [
@@ -11014,7 +11014,7 @@
         "gender": "Female",
         "age": 55,
         "total_reviews": 46,
-        "total_score": 4.948934782608696,
+        "total_score": 4.836956521739131,
         "healthgrades_score": 4.795391705,
         "vitals_score": 4.148049645,
         "comments": [],
@@ -11029,7 +11029,7 @@
         "gender": "Male",
         "age": 61,
         "total_reviews": 12,
-        "total_score": 4.821458333333333,
+        "total_score": 4.4,
         "healthgrades_score": 4.721198157,
         "vitals_score": 3.966312057,
         "comments": [
@@ -11069,7 +11069,7 @@
         "gender": "Male",
         "age": 59,
         "total_reviews": 18,
-        "total_score": 4.225555555555555,
+        "total_score": 4.055555555555555,
         "healthgrades_score": 4.5,
         "vitals_score": 5,
         "comments": [
@@ -11098,7 +11098,7 @@
         "gender": "Male",
         "age": 64,
         "total_reviews": 22,
-        "total_score": 4.453749999999999,
+        "total_score": 4.1499999999999995,
         "healthgrades_score": 4.062211982,
         "vitals_score": 3.854609929,
         "comments": [
@@ -11127,7 +11127,7 @@
         "gender": "Male",
         "age": 54,
         "total_reviews": 21,
-        "total_score": 3.394,
+        "total_score": 3.142857142857143,
         "healthgrades_score": 3.489400922,
         "vitals_score": 2.555851064,
         "comments": [],
@@ -11142,7 +11142,7 @@
         "gender": "Male",
         "age": 66,
         "total_reviews": 19,
-        "total_score": 4.8875,
+        "total_score": 4.7894736842105265,
         "healthgrades_score": 4.214285714,
         "vitals_score": 4.444148936,
         "comments": [
@@ -11170,7 +11170,7 @@
         "gender": "Male",
         "age": 59,
         "total_reviews": 27,
-        "total_score": 4.956444444444445,
+        "total_score": 4.7,
         "healthgrades_score": 4.86359447,
         "vitals_score": 4,
         "comments": [
@@ -11199,7 +11199,7 @@
         "gender": "Male",
         "age": 61,
         "total_reviews": 50,
-        "total_score": 4.8334,
+        "total_score": 4.6,
         "healthgrades_score": 4.777419355,
         "vitals_score": 4.552304965,
         "comments": [
@@ -11254,7 +11254,7 @@
         "gender": "Male",
         "age": 57,
         "total_reviews": 16,
-        "total_score": 4.251875,
+        "total_score": 3.9937499999999995,
         "healthgrades_score": 3.861751152,
         "vitals_score": 3.860815603,
         "comments": [
@@ -11308,7 +11308,7 @@
         "gender": "Male",
         "age": 60,
         "total_reviews": 19,
-        "total_score": 4.939657894736842,
+        "total_score": 4.810526315789474,
         "healthgrades_score": 4.931336406,
         "vitals_score": 4.728723404,
         "comments": [
@@ -11347,7 +11347,7 @@
         "gender": "Female",
         "age": 60,
         "total_reviews": 34,
-        "total_score": 4.518382352941177,
+        "total_score": 4.329411764705882,
         "healthgrades_score": 4.647465438,
         "vitals_score": 4,
         "comments": [
@@ -11412,7 +11412,7 @@
         "gender": "Male",
         "age": 59,
         "total_reviews": 74,
-        "total_score": 4.019283783783783,
+        "total_score": 3.8716216216216215,
         "healthgrades_score": 3.431336406,
         "vitals_score": 4.593085106,
         "comments": [
@@ -11486,7 +11486,7 @@
         "gender": "Male",
         "age": 46,
         "total_reviews": 14,
-        "total_score": 4.2045,
+        "total_score": 4,
         "healthgrades_score": 4.432258065,
         "vitals_score": 3.009751773,
         "comments": [
@@ -11528,7 +11528,7 @@
         "gender": "Female",
         "age": 55,
         "total_reviews": 48,
-        "total_score": 4.266260416666666,
+        "total_score": 3.8958333333333335,
         "healthgrades_score": 4.067741935,
         "vitals_score": 4.85106383,
         "comments": [
@@ -11653,7 +11653,7 @@
         "gender": "Female",
         "age": 43,
         "total_reviews": 38,
-        "total_score": 3.975473684210526,
+        "total_score": 3.331578947368421,
         "healthgrades_score": 3.704608295,
         "vitals_score": 3,
         "comments": [
@@ -11788,7 +11788,7 @@
         "gender": "Female",
         "age": 57,
         "total_reviews": 24,
-        "total_score": 4.585,
+        "total_score": 4.366666666666667,
         "healthgrades_score": 4.722580645,
         "vitals_score": 3.715425532,
         "comments": [],
@@ -11803,7 +11803,7 @@
         "gender": "Male",
         "age": 71,
         "total_reviews": 29,
-        "total_score": 4.328448275862069,
+        "total_score": 4.255172413793103,
         "healthgrades_score": 5,
         "vitals_score": 4.148049645,
         "comments": [
@@ -11829,7 +11829,7 @@
         "gender": "Male",
         "age": 60,
         "total_reviews": 26,
-        "total_score": 5.1826923076923075,
+        "total_score": 4.953846153846154,
         "healthgrades_score": 5,
         "vitals_score": 4.298758865,
         "comments": [
@@ -11884,7 +11884,7 @@
         "gender": "Male",
         "age": 68,
         "total_reviews": 19,
-        "total_score": 4.939473684210526,
+        "total_score": 4.71578947368421,
         "healthgrades_score": 5,
         "vitals_score": 5,
         "comments": [
@@ -11915,7 +11915,7 @@
         "gender": "Male",
         "age": 56,
         "total_reviews": 58,
-        "total_score": 3.7566034482758623,
+        "total_score": 3.2724137931034485,
         "healthgrades_score": 3.641474654,
         "vitals_score": 3,
         "comments": [
@@ -12030,7 +12030,7 @@
         "gender": "Male",
         "age": 51,
         "total_reviews": 21,
-        "total_score": 4.575071428571429,
+        "total_score": 4.185714285714286,
         "healthgrades_score": 4.431797235,
         "vitals_score": 3.854609929,
         "comments": [
@@ -12085,7 +12085,7 @@
         "gender": "Male",
         "age": 53,
         "total_reviews": 12,
-        "total_score": 4.0875,
+        "total_score": 3.983333333333334,
         "healthgrades_score": 3.3640553,
         "vitals_score": 4.864361702,
         "comments": [
@@ -12114,7 +12114,7 @@
         "gender": "Male",
         "age": 63,
         "total_reviews": 15,
-        "total_score": 5.1450000000000005,
+        "total_score": 4.946666666666667,
         "healthgrades_score": 5,
         "vitals_score": 4.728723404,
         "comments": [],
@@ -12129,7 +12129,7 @@
         "gender": "Female",
         "age": null,
         "total_reviews": 12,
-        "total_score": 3.34475,
+        "total_score": 3.0499999999999994,
         "healthgrades_score": 3.123963134,
         "vitals_score": 1.869680851,
         "comments": [
@@ -12172,7 +12172,7 @@
         "gender": "Male",
         "age": 41,
         "total_reviews": 18,
-        "total_score": 4.302222222222222,
+        "total_score": 4.199999999999999,
         "healthgrades_score": 4.210138249,
         "vitals_score": 4.554964539,
         "comments": [],
@@ -12187,7 +12187,7 @@
         "gender": "Male",
         "age": 40,
         "total_reviews": 16,
-        "total_score": 4.0490312500000005,
+        "total_score": 3.64375,
         "healthgrades_score": 3.98202765,
         "vitals_score": 2.728723404,
         "comments": [
@@ -12250,7 +12250,7 @@
         "gender": "Female",
         "age": 44,
         "total_reviews": 24,
-        "total_score": 3.9385833333333338,
+        "total_score": 3.6333333333333333,
         "healthgrades_score": 3.563133641,
         "vitals_score": 4,
         "comments": [
@@ -12280,7 +12280,7 @@
         "gender": "Female",
         "age": 45,
         "total_reviews": 14,
-        "total_score": 4.44125,
+        "total_score": 4.2,
         "healthgrades_score": 4.5,
         "vitals_score": 5,
         "comments": [
@@ -12335,7 +12335,7 @@
         "gender": "Female",
         "age": 42,
         "total_reviews": 12,
-        "total_score": 3.751,
+        "total_score": 3.4,
         "healthgrades_score": 2.766820276,
         "vitals_score": 4.148049645,
         "comments": [
@@ -12365,7 +12365,7 @@
         "gender": "Female",
         "age": 48,
         "total_reviews": 16,
-        "total_score": 3.8682499999999997,
+        "total_score": 3.475,
         "healthgrades_score": 3.84516129,
         "vitals_score": 3.271276596,
         "comments": [
@@ -12395,7 +12395,7 @@
         "gender": "Female",
         "age": 46,
         "total_reviews": 18,
-        "total_score": 4.070611111111111,
+        "total_score": 3.6666666666666665,
         "healthgrades_score": 4.203686636,
         "vitals_score": 2.002659574,
         "comments": [
@@ -12470,7 +12470,7 @@
         "gender": "Male",
         "age": 69,
         "total_reviews": 44,
-        "total_score": 3.86525,
+        "total_score": 3.7,
         "healthgrades_score": 3.714746544,
         "vitals_score": 3.433510638,
         "comments": [
@@ -12524,7 +12524,7 @@
         "gender": "Male",
         "age": 51,
         "total_reviews": 16,
-        "total_score": 5.1125,
+        "total_score": 4.8,
         "healthgrades_score": 5,
         "vitals_score": 4.864361702,
         "comments": [
@@ -12564,7 +12564,7 @@
         "gender": "Male",
         "age": 60,
         "total_reviews": 25,
-        "total_score": 4.4671400000000006,
+        "total_score": 4.4,
         "healthgrades_score": 4.22718894,
         "vitals_score": 3.430851064,
         "comments": [],
@@ -12579,7 +12579,7 @@
         "gender": "Male",
         "age": 62,
         "total_reviews": 12,
-        "total_score": 4.928249999999999,
+        "total_score": 4.591666666666666,
         "healthgrades_score": 4.494930876,
         "vitals_score": 4.440602837,
         "comments": [
@@ -12608,7 +12608,7 @@
         "gender": "Female",
         "age": null,
         "total_reviews": 12,
-        "total_score": 4.781,
+        "total_score": 4.3999999999999995,
         "healthgrades_score": 4.204608295,
         "vitals_score": 4,
         "comments": [
@@ -12646,7 +12646,7 @@
         "gender": "Female",
         "age": 62,
         "total_reviews": 39,
-        "total_score": 2.579230769230769,
+        "total_score": 2.323076923076923,
         "healthgrades_score": 3,
         "vitals_score": 1.716312057,
         "comments": [
@@ -12685,7 +12685,7 @@
         "gender": "Female",
         "age": 55,
         "total_reviews": 19,
-        "total_score": 3.08578947368421,
+        "total_score": 2.863157894736842,
         "healthgrades_score": 3.414746544,
         "vitals_score": 2,
         "comments": [],
@@ -12700,7 +12700,7 @@
         "gender": "Male",
         "age": 57,
         "total_reviews": 21,
-        "total_score": 3.302857142857143,
+        "total_score": 2.8380952380952382,
         "healthgrades_score": 3.419354839,
         "vitals_score": 3.12677305,
         "comments": [
@@ -12728,7 +12728,7 @@
         "gender": "Female",
         "age": 58,
         "total_reviews": 29,
-        "total_score": 5.0285,
+        "total_score": 4.606896551724139,
         "healthgrades_score": 4.648387097,
         "vitals_score": 4.864361702,
         "comments": [
@@ -12823,7 +12823,7 @@
         "gender": "Male",
         "age": 64,
         "total_reviews": 14,
-        "total_score": 3.70525,
+        "total_score": 3.3500000000000005,
         "healthgrades_score": 3.143317972,
         "vitals_score": 3.715425532,
         "comments": [],
@@ -12838,7 +12838,7 @@
         "gender": "Male",
         "age": 41,
         "total_reviews": 36,
-        "total_score": 4.927944444444445,
+        "total_score": 4.877777777777777,
         "healthgrades_score": 4.72718894,
         "vitals_score": 4.430851064,
         "comments": [
@@ -12903,7 +12903,7 @@
         "gender": "Male",
         "age": 48,
         "total_reviews": 30,
-        "total_score": 4.2042,
+        "total_score": 3.98,
         "healthgrades_score": 4.295391705,
         "vitals_score": 3.711879433,
         "comments": [
@@ -12944,7 +12944,7 @@
         "gender": "Female",
         "age": 46,
         "total_reviews": 71,
-        "total_score": 3.608943661971831,
+        "total_score": 3.3901408450704222,
         "healthgrades_score": 3.5,
         "vitals_score": 3.430851064,
         "comments": [
@@ -13007,7 +13007,7 @@
         "gender": "Female",
         "age": 43,
         "total_reviews": 33,
-        "total_score": 4.825,
+        "total_score": 4.709090909090908,
         "healthgrades_score": 5,
         "vitals_score": 4.298758865,
         "comments": [
@@ -13122,7 +13122,7 @@
         "gender": "Female",
         "age": 45,
         "total_reviews": 25,
-        "total_score": 4.38784,
+        "total_score": 4.047999999999999,
         "healthgrades_score": 4.431336406,
         "vitals_score": 4,
         "comments": [
@@ -13162,7 +13162,7 @@
         "gender": "Female",
         "age": 51,
         "total_reviews": 33,
-        "total_score": 3.88690909090909,
+        "total_score": 3.7636363636363632,
         "healthgrades_score": 4.367741935,
         "vitals_score": 3.72251773,
         "comments": [],
@@ -13177,7 +13177,7 @@
         "gender": "Female",
         "age": 67,
         "total_reviews": 22,
-        "total_score": 4.3687499999999995,
+        "total_score": 3.9409090909090905,
         "healthgrades_score": 4.357142857,
         "vitals_score": 3.554964539,
         "comments": [
@@ -13261,7 +13261,7 @@
         "gender": "Male",
         "age": 46,
         "total_reviews": 16,
-        "total_score": 3.7474375,
+        "total_score": 3.55,
         "healthgrades_score": 3.27281106,
         "vitals_score": 4,
         "comments": [
@@ -13306,7 +13306,7 @@
         "gender": "Male",
         "age": 68,
         "total_reviews": 16,
-        "total_score": 4.5383125,
+        "total_score": 4.05625,
         "healthgrades_score": 4.568663594,
         "vitals_score": 3.838652482,
         "comments": [],
@@ -13321,7 +13321,7 @@
         "gender": "Female",
         "age": 42,
         "total_reviews": 124,
-        "total_score": 3.8249516129032255,
+        "total_score": 3.704838709677419,
         "healthgrades_score": 3.204608295,
         "vitals_score": 3.555851064,
         "comments": [
@@ -13426,7 +13426,7 @@
         "gender": "Female",
         "age": 46,
         "total_reviews": 16,
-        "total_score": 4.3735,
+        "total_score": 4.3,
         "healthgrades_score": 4.282949309,
         "vitals_score": 4.728723404,
         "comments": [],
@@ -13441,7 +13441,7 @@
         "gender": "Male",
         "age": 61,
         "total_reviews": 50,
-        "total_score": 3.8731999999999998,
+        "total_score": 3.656,
         "healthgrades_score": 3.642857143,
         "vitals_score": 3.406914894,
         "comments": [
@@ -13626,7 +13626,7 @@
         "gender": "Female",
         "age": 67,
         "total_reviews": 15,
-        "total_score": 3.9475,
+        "total_score": 3.8666666666666667,
         "healthgrades_score": 3.357142857,
         "vitals_score": 3.005319149,
         "comments": [

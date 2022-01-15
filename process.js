@@ -46,7 +46,7 @@ fs.readFile('./doctor-names.csv', function (err, fileData) {
                     gender: physician["Gender"],
                     age: Number(physician["Age"]),
                     total_reviews: (Number(physician["Review_No_HG"]) + Number(physician["Review_No_vital"])),
-                    total_score: (Number(physician["New_total_score_HG1"]) * Number(physician["Review_No_HG"]) + Number(physician["Total_score_vital"]) * Number(physician["Review_No_vital"])) / (Number(physician["Review_No_HG"]) + Number(physician["Review_No_vital"])),
+                    total_score: (Number(physician["Total_score_HG"]) * Number(physician["Review_No_HG"]) + Number(physician["Total_score_vital"]) * Number(physician["Review_No_vital"])) / (Number(physician["Review_No_HG"]) + Number(physician["Review_No_vital"])),
                     healthgrades_score: Number(physician["New_quality_score_HG"]),
                     vitals_score: Number(physician["New_quality_score_vital"]),
                     /* NEW PHYSICIAN METRICS GO HERE */
