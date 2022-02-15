@@ -13,11 +13,13 @@
     - This pulls specific libraries used by the scripts. Node's `npm` is similar to Python's `pip`.
 
 ## Breakdown
-The codebase is split into three major sections. The first two are solely data cleansing and validating the proof of concept prior to synthesizing the information into a web dashboard.
+The codebase is split into two major sections. The first is solely data cleansing and synthesizing the information into a web dashboard. The second hosts the page.
 
 1. `node process.js`
     - Primary script used to generate final JSON presented on site, seen at `index.html`. 
     - This script runs some minor calculations, does keyword analysis and basic sentiment analysis and then outputs `data-synthesized.json`.
+2. `npx serve`
+    - Runs web server to see `index.html`
 
 ## Website
 Site is dependent on `index.html`, `index.css` and `data-synthesized.json`.
